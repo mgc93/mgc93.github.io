@@ -1,12 +1,13 @@
 ---
 layout: page
 title: Attention to norms and altruism
-description: 
+description: Do people fail to conform because they are not aware of social norms, or because they disregard them?
 img: assets/img/project_image_altruism_attention.jpeg
 importance: 3
 category: Research
 ---
 
-Our decisions are often influenced by what those around us do, but we are also inclined to seek out similar others. Research on social influence has focused more on choice behavior and less on process data such as eye-movement patterns produced during the deliberation process. However, process data can reveal hidden information about a person’s preferences in situations where choices alone might not be informative. 
+![https://images.unsplash.com/photo-1435686858161-59da32dfd4b4?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb](https://images.unsplash.com/photo-1435686858161-59da32dfd4b4?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb)
 
-Using eye-tracking in the lab, we study the effect of social influence on altruism. We record participants’ eye movements while inspecting others’ previous choices before making their own giving decisions. We correlate the types of behavioral responses to social information with specific attention pattern and to test whether attention patterns alone can be used to infer giving behavior.
+
+Our decisions are often influenced by what those around us do. However, not everybody conforms. It is unclear whether people don’t conform because they aren’t aware of social norms, or because they don’t put enough weight on social norms in their decisions. Here, we sought to investigate this question by using eye-tracking to measure how much people pay attention to others’ behavior, and how that influences their own behavior.  
