@@ -125,7 +125,7 @@
   ],
   "certificates": [],
   "publications": [],
-  "skills": [R, Stan, Matlab, Python, HTML & CSS, JavaScript, SQL, eBay API, Web/In-lab Eye-tracking, Amazon Mechanical Turk, Prolific, Qualtric],
+  "skills": ["R", "Stan", "Matlab", "Python", "HTML & CSS", "JavaScript", "SQL", "eBay API", "Web/In-lab Eye-tracking", "Amazon Mechanical Turk", "Prolific", "Qualtrics"],
   "languages": [],
   "interests": [],
   "references": [],
