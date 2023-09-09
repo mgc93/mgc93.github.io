@@ -4,7 +4,7 @@ title: Response time in negotiation on eBay
 description: When negotiating, does the time it takes somebody to get back to you with a response tell you something about their preferences? 
 img: assets/img/project_image_ebay_obs.jpeg
 importance: 1
-category: Research
+category: Research and Teaching
 related_publications: 
 ---
 

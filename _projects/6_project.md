@@ -4,7 +4,7 @@ title: Ohio Super Computer Center Summer Institute Teaching
 description: Taught the basics of statistics, experimentation and R programming using cluster computing resources and helped high school students to apply these skills to analyze and present an eye-tracking project
 img: assets/img/project_image_osc_teaching.jpeg
 importance: 4
-category: Teaching
+category: Research and Teaching
 ---
 
 ![https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb](https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb)

@@ -4,7 +4,7 @@ title: How cognitive modeling can identify response biases in negotiations
 description: Using Drift Diffusion Modeling for lab and field bargaining
 img: assets/img/project_image_learned_impatience.jpeg
 importance: 3
-category: Research
+category: Research and Teaching
 ---
 
 

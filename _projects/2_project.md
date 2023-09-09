@@ -4,7 +4,7 @@ title: Learned Impatience
 description: Do people discount delayed reward information relative to immediate reward information, even if the timing of the information has no impact on the delivery of the reward?
 img: assets/img/project_image_learned_impatience.jpeg
 importance: 2
-category: Research
+category: Research and Teaching
 giscus_comments: false
 ---
  

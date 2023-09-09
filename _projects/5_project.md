@@ -4,7 +4,7 @@ title: Attention to norms and altruism
 description: Do people fail to conform because they are not aware of social norms, or because they disregard them?
 img: assets/img/project_image_altruism_attention.jpeg
 importance: 3
-category: Research
+category: Research and Teaching
 ---
 
 ![https://images.unsplash.com/photo-1435686858161-59da32dfd4b4?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb](https://images.unsplash.com/photo-1435686858161-59da32dfd4b4?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb)

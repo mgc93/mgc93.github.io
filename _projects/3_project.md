@@ -5,7 +5,7 @@ description: Testing whether response times reveal eBay sellers' evaluations of 
 img: assets/img/project_image_ebay_field_experiment.jpeg
 redirect: 
 importance: 3
-category: Research
+category: Research and Teaching
 ---
 
 ![https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb](https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb)
