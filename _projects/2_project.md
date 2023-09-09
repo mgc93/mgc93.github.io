@@ -8,8 +8,9 @@ category: Research and Teaching
 giscus_comments: false
 ---
  
- ![https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb](https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb)
+ <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" alt="Untitled" width="700"/>
  
+
 Imagine you’re in a situation where you have to decide which action to take. For instance eat cake ( 🍰 ) or an apple ( 🍎 ).
 
 Usually actions have multiple consequences - some immediate, others delayed.

@@ -7,7 +7,7 @@ importance: 4
 category: Research and Teaching
 ---
 
-![https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb](https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb)
+<img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" alt="Untitled" width="700"/>
 
 
 ## Lesson Plan
@@ -41,7 +41,7 @@ Given a choice between two items, you’ll probably choose the one you like the 
 
 BUT, the item to which you pay more attention may have an advantage over the unattended item ([Krajbich et al., 2010](https://www.nature.com/articles/nn.2635)).
 
-![Untitled](OSC%20Teaching%20f96d11c5f46f444685ef3e5fd5c64307/Untitled%204.png)
+{% include figure.html path="assets/img/project_6_images/project_6_img_1.png" title="example image" class="img-fluid rounded z-depth-1" width = "500" %}
 
 So if you look more at the item rated 10, or look between both equally, you’ll choose that item (most likely, with some noise).
 

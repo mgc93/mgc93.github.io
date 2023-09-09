@@ -7,7 +7,7 @@ importance: 3
 category: Research and Teaching
 ---
 
-![https://images.unsplash.com/photo-1435686858161-59da32dfd4b4?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb](https://images.unsplash.com/photo-1435686858161-59da32dfd4b4?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb)
+<img src="https://images.unsplash.com/photo-1435686858161-59da32dfd4b4?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" alt="Untitled" width="700"/>
 
 
 Our decisions are often influenced by what those around us do. However, not everybody conforms. It is unclear whether people don’t conform because they aren’t aware of social norms, or because they don’t put enough weight on social norms in their decisions. Here, we sought to investigate this question by using eye-tracking to measure how much people pay attention to others’ behavior, and how that influences their own behavior.  
