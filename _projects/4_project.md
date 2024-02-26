@@ -58,7 +58,7 @@ The DDM is typically applied to fast perceptual judgments, but in recent years i
     </div>
 </div>
 <div class="caption">
-    **Drift rate (v)** represents the evaluation process. It depends on the value of the good, the size of the proposer’s offer and possible future offers: v ~ b0 + b1 (value - offer). The more positive the drift rate is (in this case the higher the surplus earned), the more likely the offer will be accepted. The larger the absolute value of the drift rate, the quicker the decisions will be made on average. The drift rate also has a drift intercept (b0) which represents a bias during the decision process towards one or the other option, controlling for the surplus.
+    <b>Drift rate (v)</b> represents the evaluation process. It depends on the value of the good, the size of the proposer’s offer and possible future offers: v ~ b0 + b1 (value - offer). The more positive the drift rate is (in this case the higher the surplus earned), the more likely the offer will be accepted. The larger the absolute value of the drift rate, the quicker the decisions will be made on average. The drift rate also has a drift intercept (b0) which represents a bias during the decision process towards one or the other option, controlling for the surplus.
 </div>
 
 <div class="row">
@@ -67,7 +67,7 @@ The DDM is typically applied to fast perceptual judgments, but in recent years i
     </div>
 </div>
 <div class="caption">
-    **Starting point bias (z)** is another type of bias in the model that appears even before the decision process starts. This bias is independent of the specifics of the offer.
+    <b>Starting point bias (z)</b> is another type of bias in the model that appears even before the decision process starts. This bias is independent of the specifics of the offer.
 </div>
 
 <div class="row">
@@ -76,7 +76,7 @@ The DDM is typically applied to fast perceptual judgments, but in recent years i
     </div>
 </div>
 <div class="caption">
-    **Boundary separation (a)** represents the amount of evidence needed to make a decision. Smaller decision boundaries indicate a lower caution level. This leads to more mistake on average, but also quicker responses.
+    <b>Boundary separation (a)</b> represents the amount of evidence needed to make a decision. Smaller decision boundaries indicate a lower caution level. This leads to more mistake on average, but also quicker responses.
 </div>
 
 
@@ -86,7 +86,7 @@ The DDM is typically applied to fast perceptual judgments, but in recent years i
     </div>
 </div>
 <div class="caption">
-    **Non-decision time (t)** represents the time for encoding the information presented and the time for making a motor response.
+    <b>Non-decision time (t)</b> represents the time for encoding the information presented and the time for making a motor response.
 </div>
 
 

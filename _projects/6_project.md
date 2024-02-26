@@ -97,8 +97,8 @@ $$
 \epsilon_{t} \sim \mathcal{N}(0,\sigma^2)
 $$
 
-- $(u_{0}-u_{1})$  represents the average evidence for each of the two options
-- $\epsilon_{t}$ represents the noise around the slope due to the noisy observations
+- $$ (u_{0}-u_{1}) $$  represents the average evidence for each of the two options
+- $$ \epsilon_{t} $$ represents the noise around the slope due to the noisy observations
 
 **aDDM**
 
@@ -110,17 +110,17 @@ An extension of the DDM that accounts for attention during the decision process.
     </div>
 </div>
 <div class="caption">
-    **aDDM.** A relative decision value (RDV) evolves over time with a slope that is biased toward the item that is being fixated. The slope dictates the average rate of change of the RDV, but there is also an error term drawn from a Gaussian distribution. When the RDV hits the barrier a choice is made for the corresponding item. The shaded vertical regions represent the item being fixated.
+    <b>aDDM.</b> A relative decision value (RDV) evolves over time with a slope that is biased toward the item that is being fixated. The slope dictates the average rate of change of the RDV, but there is also an error term drawn from a Gaussian distribution. When the RDV hits the barrier a choice is made for the corresponding item. The shaded vertical regions represent the item being fixated.
 
 </div>
 
 
 $$
- ⁍
+  \text{look left: } V_{t} = V_{t-1} + d(u_{left}-\theta u_{right}) + \epsilon_{t}
 $$
 
 $$
-⁍
+\text{look right: } V_{t} = V_{t-1} + d(\theta u_{left}-u_{right}) + \epsilon_{t}
 $$
 
 <div class="row">
@@ -267,9 +267,9 @@ As total dwell time between left and right item increases so does the probabilit
 
 aDDM attention discount parameter:
 
-- art: $\theta = 0.504$
-- food: $\theta = 0.378$
-- lower $\theta$ = larger gaze effect
+- art: $$\theta = 0.504$$
+- food: $$\theta = 0.378$$
+- lower $$\theta$$ = larger gaze effect
 
 This means that the group was more influences by attention for their food choices compared to the art choices.
 
