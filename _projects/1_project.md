@@ -105,7 +105,7 @@ The final dataset of first buyer’s offers after applying all the restrictions 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" width="600px" %}
     </div>
 </div>
 <div class="caption">
@@ -133,7 +133,7 @@ Seller-level regressions revealed a similar pattern, with 69% showing negative o
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 <div class="caption">
@@ -203,8 +203,16 @@ Moreover, for the exchanges with thresholds, a similar pattern between offer and
 
 **Result:** Indeed, in a lab experiment from my lab, [Konovalov & Krajbich (2023)](https://doi.org/10.1093/ej/uead055) found that second offers adjust more after a fast rejection than a slow rejection. However, in the existing eBay data, we observed the opposite effects. Buyers were more, not less, likely to make a second offer for faster rejections (Fig. 8) and conditional on making a second offer, those offers were lower for faster rejections (Fig. 8). Thus, counter to the lab data and to our predictions, buyers on eBay appear to be encouraged by a fast rejection.
 
-{% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_15.png" title="example image" class="img-fluid rounded z-depth-1" width = "500" %}
-Figure 8. Buyers react adversely to slow sellers. (left) Probability that buyers make second offers as a function of sellers’ rejection RT to the first offers. The inset zooms in on rejection between 0 and 2 hours.(right) Size of buyers’ compromise as a function of sellers’ rejection RT to the first offers. The buyer’s compromise is the amount that they raised their second offer, divided by the gap between the list price and buyer’s first offer.  A 100% compromise would be a second offer that is the list price; a 0% compromise would be a second offer that is the same as the first offer. The size of the dots indicates the relative amount of data in that bin and the bars represent bootstrapped standard errors across buyers. 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_15.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Figure 8. Buyers react adversely to slow sellers. (left) Probability that buyers make second offers as a function of sellers’ rejection RT to the first offers. The inset zooms in on rejection between 0 and 2 hours.(right) Size of buyers’ compromise as a function of sellers’ rejection RT to the first offers. The buyer’s compromise is the amount that they raised their second offer, divided by the gap between the list price and buyer’s first offer.  A 100% compromise would be a second offer that is the list price; a 0% compromise would be a second offer that is the same as the first offer. The size of the dots indicates the relative amount of data in that bin and the bars represent bootstrapped standard errors across buyers. 
+</div>
+
+
 
 ## 🏁 Conclusions
 

@@ -27,7 +27,7 @@ Do people discount **delayed reward** information relative to **immediate reward
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_1.png" title="example image" class="img-fluid rounded z-depth-1" width="600px" %}
     </div>
 </div>
 
@@ -59,7 +59,7 @@ In some trials, subjects faced a choice between an option with a higher immediat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" width="600px" %}
     </div>
 </div>
 <div class="caption">
@@ -81,7 +81,7 @@ Options can be either:
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 <div class="caption">
@@ -132,7 +132,7 @@ To test for the presence of this learning bias, we used a mixed effects logistic
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 <div class="caption">
@@ -141,7 +141,7 @@ To test for the presence of this learning bias, we used a mixed effects logistic
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 <div class="caption">

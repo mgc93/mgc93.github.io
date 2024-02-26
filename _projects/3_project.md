@@ -37,7 +37,7 @@ One of my previous projects using observational eBay data showed that seller’s
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" width="600px" %}
     </div>
 </div>
 <div class="caption">
@@ -96,7 +96,7 @@ One of my previous projects using observational eBay data showed that seller’s
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_4.png" title="example image" class="img-fluid rounded z-depth-1"width="300px" %}
     </div>
 </div>
 <div class="caption">
@@ -121,7 +121,7 @@ One of my previous projects using observational eBay data showed that seller’s
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 
@@ -163,7 +163,7 @@ Although the sellers have 24 hours to respond, most respond within an hour (M = 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 <div class="caption">
@@ -173,7 +173,7 @@ Although the sellers have 24 hours to respond, most respond within an hour (M = 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 <div class="caption">
@@ -185,7 +185,7 @@ As in the eBay observational data, low offers are more likely to be declined whi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 <div class="caption">
@@ -197,7 +197,7 @@ Similar to what we observe in the eBay observational data, we expected that sell
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 <div class="caption">
@@ -210,7 +210,7 @@ We found the expected negative coefficient on offer ratio for the acceptances, a
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 <div class="caption">
@@ -244,7 +244,7 @@ Presented the project at a conference: [International Conference on Computationa
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_11.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_11.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 
@@ -264,7 +264,7 @@ The set up for each part was as follows.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_1.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 

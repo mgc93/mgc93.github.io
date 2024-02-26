@@ -57,7 +57,7 @@ When we get ratings for the two options we can calculate a net rating: ration fo
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 
@@ -106,7 +106,7 @@ An extension of the DDM that accounts for attention during the decision process.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 <div class="caption">
@@ -145,7 +145,7 @@ BUT, the item to which you pay more attention may have an advantage over the una
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="600px" %}
     </div>
 </div>
 
@@ -161,18 +161,19 @@ Research Question: Is the effect that attention has on choice larger for art or 
 
 **Art Rating**
 
-**Food Rating**
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" width="200px" %}
     </div>
 </div>
 
 
+**Food Rating**
+
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" width="200px" %}
     </div>
 </div>
 
@@ -187,7 +188,7 @@ Research Question: Is the effect that attention has on choice larger for art or 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 
@@ -196,7 +197,7 @@ Research Question: Is the effect that attention has on choice larger for art or 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 
@@ -249,7 +250,7 @@ Food choices are slightly more consistent with choices than art ratings.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_12.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_12.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 
@@ -258,7 +259,7 @@ As the value difference becomes more negative or more positive, response times d
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_13.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_13.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 
@@ -274,7 +275,7 @@ This means that the group was more influences by attention for their food choice
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_14.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_14.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 
@@ -283,7 +284,7 @@ This is not because people look at higher rated items for longer.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_15.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_15.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 
