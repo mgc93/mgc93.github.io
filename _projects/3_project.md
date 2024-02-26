@@ -66,7 +66,7 @@ One of my previous projects using observational eBay data showed that seller’s
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" width="300px" %}
     </div>
 </div>
 <div class="caption">
@@ -96,7 +96,7 @@ One of my previous projects using observational eBay data showed that seller’s
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" width="300px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 <div class="caption">
