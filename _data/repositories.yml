@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
-
+  - mgc93
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - learning-task-main
+  - coordination-game
+  - dictator-game
+  - social-norms-eyetracking-task
+  - reinforcement-learning-eyetracking-task
