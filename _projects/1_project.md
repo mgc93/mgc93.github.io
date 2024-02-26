@@ -1,15 +1,5 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
-category: work
-related_publications: true
----
-
----
-layout: page
 title: Response time in negotiation on eBay
 description: When negotiating, does the time it takes somebody to get back to you with a response tell you something about their preferences? 
 img: assets/img/project_image_ebay_obs.jpeg
