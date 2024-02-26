@@ -3,7 +3,7 @@ layout: page
 title: How cognitive modeling can identify response biases in negotiations
 description: Using Drift Diffusion Modeling for lab and field bargaining to study how responders strategically manipulate their response times
 img: assets/img/project_image_ebay_and_exp_ddm.jpeg
-importance: 3
+importance: 4
 category: Research and Teaching
 ---
 
@@ -19,7 +19,7 @@ If these two evaluations are roughly equal ( 🍎 ~ 🍊), the agent will strug
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -28,7 +28,7 @@ In the bargaining example, the seller must weigh the buyer’s offer against the
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -44,7 +44,7 @@ The DDM is typically applied to fast perceptual judgments, but in recent years i
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -54,7 +54,7 @@ The DDM is typically applied to fast perceptual judgments, but in recent years i
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -63,7 +63,7 @@ The DDM is typically applied to fast perceptual judgments, but in recent years i
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -72,7 +72,7 @@ The DDM is typically applied to fast perceptual judgments, but in recent years i
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -82,7 +82,7 @@ The DDM is typically applied to fast perceptual judgments, but in recent years i
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -105,7 +105,7 @@ Agents who do not have prepared strategies must make decisions on the spot, like
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -123,7 +123,7 @@ The DDM is typically applied to fast perceptual judgments, but in recent years i
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -146,7 +146,7 @@ The DDM provides an accurate quantitative account of the buyers’ behavior in t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -157,7 +157,7 @@ Like the eBay data, a buyer’s RT was increasing with surplus for rejections (b
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_11.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_11.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -167,7 +167,7 @@ Like the eBay data, a buyer’s RT was increasing with surplus for rejections (b
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_12.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_12.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -183,7 +183,7 @@ To compare the conditions with the DDM, we allowed non-decision time, boundary s
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_13.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_13.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -194,7 +194,7 @@ The DDM also provides an accurate account of sellers’ behavior on eBay, with s
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_14.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_14.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -203,7 +203,7 @@ These additions to the DDM substantially improved model fit for many sellers (WA
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_15.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_15.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -213,7 +213,7 @@ These additions to the DDM substantially improved model fit for many sellers (WA
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_16.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_16.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -225,7 +225,7 @@ While there is no eBay equivalent to the Hidden condition in the lab experiment,
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_17.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_17.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -237,7 +237,7 @@ While there is no eBay equivalent to the Hidden condition in the lab experiment,
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_18.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_18.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -247,7 +247,7 @@ Finally, there is the question of how buyers on eBay respond to sellers’ RT. S
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_4_fig_19.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_19.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
