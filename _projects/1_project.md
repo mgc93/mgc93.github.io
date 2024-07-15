@@ -15,7 +15,7 @@ related_publications:
 
 **Programming**: R
 
-**Data Analysis**: Data Cleaning, Generalized Additive Models, Mixed Effects Linear and Logistic Regressions, Heckman Correction Analysis for Correction of Sampling Bias
+**Data Analysis**: Data Cleaning, Generalized Additive Models, Heckman Correction for Sampling Bias, Linear and Logistic Mixed Effects Regressions
 
 
 
@@ -23,13 +23,13 @@ related_publications:
 
 ---
 
-In this project, I study whether response times in negotiations reveal the responder's evaluation of the offer, and thus can be used strategically by the proposers. I use an eBay dataset containing bargaining exchanges between June 2012 - June 2013 to answer this question.
+In this project, I study whether response times in negotiations reveal the responder's evaluation of the offer, and thus can be used strategically by the proposers. I use an eBay dataset containing millions of bargaining exchanges between June 2012 - June 2013 to answer this question.
 
 ## 🔍 Research question
 
 ---
 
-When negotiating, does the time it takes somebody to get back to you with a response tell you something about their preferences? 
+When negotiating, does the time it takes somebody to get back to you with tell you something about how good they think your offer was?
 
 Consider this situation. Imagine you go on eBay to buy something (e.g. art poster for your room). You come across this listing. You can click ‘Buy it Now’ to buy the listing at $22 or click ‘Make an offer’ to send a private offer to the seller of $15 for instance.
 
@@ -45,10 +45,9 @@ Consider this situation. Imagine you go on eBay to buy something (e.g. art poste
 
 Now, the seller rejects you so you go and make the $15 offer to another seller with the same good and price. This seller also rejects you. The only difference between the sellers is that the first one rejected you quickly ( 🐇 ), while the second one took longer ( 🐢 ) to reject you. 
 
-Which seller should you choose to continue to negotiate with? The one who rejected **quickly** or the one who rejected **slowly**?
+Which seller should you choose to continue to negotiate with? The one who rejected **quickly** ( 🐇 ) or the one who rejected **slowly** ( 🐢 )?
 
-
-If I were you, I would choose the slow seller. In this project, I study whether response times in negotiations reveal the responder's evaluation of the offer, and thus can be used strategically by the proposers. I use an eBay dataset containing bargaining exchanges between June 2012 - June 2013 to answer this question.
+If I were you, I would choose the **slow seller** and I’m going to show you why.
 
 ## 👾 Methods
 
@@ -84,43 +83,43 @@ The final dataset of first buyer’s offers after applying all the restrictions 
 
 ---
 
-**Results Analysis 1:** Most importantly, sellers’ RT’s varied significantly with offer size - over most of the offer range \[25%, 100%], median acceptance RT decreased with offer size from 2.1 hours down to 1.0 hours, while over most of the offer range \[0, 65%], median rejection RT increased with offer size, from 1.4 hours up to 2 hours (Fig. 1A). The relationship is evidence using a GAM regressions as well (Fig. 1B).
+**Results Analysis 1:** Sellers’ RT’s varied significantly with offer size - over most of the offer range \[20%, 100%], the median acceptance RT decreased with offer size from 2 hours down to 0.8 hours, while over most of the offer range \[0, 70%], the median rejection RT increased with offer size, from 1.3 hours up to 1.8 hours (Fig. 1A). The relationship is evidence using a GAM regressions as well (Fig. 1B).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Figure 1A. Sellers’ median RT (in hours) as a function of buyers’ initial offer ratios (offer / list price), conditional on accepting or rejecting the offers. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors.
-    Figure 1B. GAM regression predictions for sellers’ RT by buyers’ initial offer by type of seller response. Shaded regions represent 95% confidence intervals.
+    **Figure 1. eBay RT reflect offer size. A.** Sellers’ median RT (in hours) as a function of buyers’ initial offer ratios (offer / list price), conditional on accepting or rejecting the offers. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors. **B.** GAM regression predictions for sellers’ RT by buyers’ initial offer, conditional on accepting or rejecting the offers. Shaded regions represent 95% confidence intervals.
 </div>
 
 ****
 
 **Results Analysis 2:** These effects were largely consistent across product categories, ranging from baseball cards to vehicles, with 28/32 categories showing a positive relation between RT and offer size for acceptances and 26/32 categories showing the opposite relation for rejections (Fig. 2). 
 
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" width="600px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="600px" %}
     </div>
 </div>
 <div class="caption">
-    Figure 2. Coefficients for the relation between seller’s log(RT) and buyers’ initial offer ratios, conditional on accepting or rejecting the offers and on item category. Bars represent standard errors.
+    **Figure 2. eBay RT reflect offer size for each item category.** Coefficients for the relation between seller’s log(RT) and buyers’ initial offer ratios, conditional on accepting or rejecting the offers and on item category. Bars represent standard errors.
 </div>
 
 Seller-level regressions revealed a similar pattern, with 69% showing negative offer-RT correlations for acceptances but only 53% showing positive offer-RT correlations for rejections (Fig. 3).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Figure 3. Seller level RT effects. ****(left) Histogram of coefficients of first offer ratio at the seller level for acceptance log RT in hours. (right) Histogram of coefficients of first offer ratio at the seller level for rejection log RT in hours.
+    **Figure 3.Seller level RT effects for eBay observational data. A.** Histogram of coefficients of buyer’s first offer ratio as a fraction of the sellers’ list prices at the seller level for acceptance log RT in hours. **B.** Histogram of coefficients of buyer’s first offer ratio as a fraction of the sellers’ list prices at the seller level for rejection log RT in hours.
 </div>
 
 ## 🐡 Additional Results
@@ -129,15 +128,15 @@ Seller-level regressions revealed a similar pattern, with 69% showing negative o
 
 **Additional Question 1:** Does this effect hold for buyers as well. More specifically, do buyers’ RT’s also varied with the size of sellers’ counteroffers?
 
-**Result:** Sellers were not the only ones whose RT’s showed interesting variation – buyers’ RT’s also varied with the size of sellers’ counteroffers (Fig. 4). Looking at the gap between a seller’s counteroffer and their buyer’s original offer, larger gaps led to faster rejections and slower acceptances from the buyers. The difference in RT was substantial, decreasing from 5.58 hours to 2.96 hours for rejections of gaps from 10% to 100% of the original gap (between the list price and the buyer’s first offer).
+**Result:** Sellers were not the only ones whose RT’s showed interesting variation – buyers’ RT’s also varied with the size of sellers’ counteroffers (Fig. 4). Looking at the gap between a seller’s counteroffer and their buyer’s original offer, larger gaps led to faster rejections and slower acceptances from the buyers. The difference in RT was substantial, increasing from 2.96 hours to 5.58 hours for compromises from 10% to 100%.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 <div class="caption">
-    Figure 4. Buyers’ median RT (in hours) as a function of sellers’ compromise, conditional on the buyer accepting or rejecting the offers. The seller’s compromise is the amount that they lowered their counteroffer, divided by the gap between the list price and the buyer’s offer. A 100% compromise would be a counteroffer that matches the buyer’s offer; a 0% compromise would be a counteroffer that is the list price. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors.
+    **Figure 4. Buyer’s RT reflects seller’s compromise.** Buyers’ median RT (in hours) as a function of sellers’ compromise, conditional on the buyer accepting or rejecting the offers. Buyers’ median RT (in hours) as a function of sellers’ compromise, conditional on the buyer accepting or rejecting the offers. The seller’s compromise is the amount that they lowered their counteroffer, divided by the gap between the list price and the buyer’s offer. A 100% compromise would be a counteroffer that matches the buyer’s offer; a 0% compromise would be a counteroffer that is the list price. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors.
 </div>
 
 
@@ -147,11 +146,11 @@ Seller-level regressions revealed a similar pattern, with 69% showing negative o
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Figure 5. Sellers’ median RT as a function of buyers’ additional offers. (left) Sellers’ median RT (in hours) for buyers’ second offers (as a fraction of the sellers’ list prices), conditional on the seller accepting or rejecting the offers. (right) Sellers’ median RT (in hours) for buyers’ third offers (as a fraction of the sellers’ list prices), conditional on the seller accepting or rejecting the offers. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors. Bins with less than 25 observations were excluded.
+    **Figure 5. Sellers’ median RT as a function of buyers’ additional offers for eBay observational data. A.** Sellers’ median RT (in hours) for buyers’ second offers as a fraction of the sellers’ list prices, conditional on the seller accepting or rejecting the offers. **B.** Sellers’ median RT (in hours) for buyers’ third offers as a fraction of the sellers’ list prices, conditional on the seller accepting or rejecting the offers. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors. Bins with less than 25 observations were excluded.
 </div>
 
 
@@ -159,9 +158,25 @@ Seller-level regressions revealed a similar pattern, with 69% showing negative o
 
 **Result:** First, I look at which sellers are more likely to set private thresholds. Then, I look at whether the same relationship between offer and RT of the seller holds in cases where the threshold was privately set but the offer was either above the reject threshold or below the accept thresholds. In these cases, I can use the threshold as a boundary for the seller’s true valuation of the item. 
 
-Overall, 62% of sellers did not use either acceptance or rejection thresholds, 17% used only rejection thresholds, 5.4% used only acceptance thresholds, and 15.7% used both thresholds. The relationship between seller experience and threshold usage was quadratic (U-shaped) in that both very inexperienced and very experienced sellers used thresholds more than medium-experience sellers (Fig. 6A). Thus, the low rate of threshold usage is not due to one-time or inexperienced sellers. While not completely conclusive, the low rate of automatic thresholds already suggests that most sellers prefer to evaluate offers as they arrive.
+The pre-existing data from eBay indicate that most sellers (62%) do not use automatic thresholds. In the subset of data that I analyzed, 17% used only rejection thresholds, 5.4% used only acceptance thresholds, and 15.7% used both thresholds. To examine the effect of seller experience on automatic threshold use, I looked at the number of best-offer listings created by each seller (dating back to 2008), The relation between seller experience and threshold usage was quadratic – both inexperienced and highly experienced sellers used thresholds more than medium-experience sellers (Fig. 6A). While these results do not rule out that sellers have plans, the low rate of automatic thresholds suggests that sellers prefer to evaluate offers as they arrive. Moreover, for the exchanges with thresholds, a similar pattern between offer and RT holds (Fig. 6B).
 
-Moreover, for the exchanges with thresholds, a similar pattern between offer and RT holds (Fig. 6B).
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    **Figure 6. Acceptance and rejection threshold usage by seller experience. A.** Probability of using an accept or reject threshold, both thresholds or neither threshold, as a function of seller experience quantile. Seller experience represents the number of previous bargaining exchanges the seller has participated in. All bargaining exchanges were sorted by seller experience into ten equal sized bins. In other words, each observation was a single exchange. I did it this way, rather than sorting at the seller level, because a single seller might have some exchanges with thresholds and others without. **B.** Sellers’ median RT (in hours) as a function of buyers’ initial offers as a percent of list price, conditional on the seller accepting or rejecting the offers for bargaining exchanges with either rejection or acceptance threshold and offers that were between these thresholds. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors. Bins with less than 100 observations were excluded. The coefficients are from a linear regression of log(RT) on first buyer offer ratio (z-score) conditional on the seller accepting, or rejecting the offers using a restricted offer range (\[0.36, 0.68]) similar to the analyses of observations without thresholds. The regressions also includes random effects (clustered by seller) on the intercept and first buyer offer ratio.*
+</div>
+
+
+**Additional Question 4:** What about countered offers? Does a counteroffer on eBay resemble an acceptance or a rejection?
+
+**Result:** Sellers’ counteroffers also displayed a significant relation between log(RT) and offer size. We had speculated that counteroffers might look more like rejections but instead they looked more like acceptances. These RT monotonically decreased with offer size over the range \[10%, 100%] from 1.46 hours to 0.54 hours (Fig. 7). 
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -172,14 +187,17 @@ Moreover, for the exchanges with thresholds, a similar pattern between offer and
     </div>
 </div>
 <div class="caption">
-    Figure 6A. Accept and reject threshold usage by seller experience. Probability of using an accept or reject threshold, both thresholds or neither threshold, as a function of seller experience quantile. Seller experience represents the number of previous bargaining exchanges the seller has participated in. All bargaining exchanges were sorted by seller experience into ten equal sized bins. In other words, each observation was a single exchange. I did it this way, rather than sorting at the seller level, because a single seller might have some exchanges with thresholds and others without. 
-    Figure 6B. Sellers’ median RT (in hours) as a function of buyers’ initial offers (as a fraction of the sellers’ list prices), conditional on the seller accepting or rejecting the offers for bargaining exchanges with either reject or accept threshold and offers that were between these thresholds. If the accept threshold is not present, list price is used. If the reject threshold is not present, zero is used. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors. Bins with less than 100 observations were excluded.
+    **Figure 7. eBay seller’s RT for counteroffers.** **A.** Histograms of buyers’ initial offers as a fraction of the sellers’ list prices, conditional on the seller accepting, rejecting, or countering the offers. **B.** Sellers’ median RT (in hours) as a function of buyers’ initial offers as a fraction of the sellers’ list prices, conditional on the seller accepting or rejecting or countering the offers. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors.
 </div>
 
 
-**Additional Question 4:** What about countered offers? Does a counteroffer on eBay resemble an acceptance or a rejection?
+## 🧩 Puzzling Results
 
-**Result:** The countered offers do display some monotonicity as the rejections or acceptances – their RT’s monotonically decreased with offer size over the range \[10%, 100%] from 1.46 hours to 0.54 hours (the 0-10% offer RTs decreased very slightly to 1.17 hours) (Fig. Sx). Therefore, on eBay a countered offer resembles an acceptance more than a rejection response. 
+---
+
+**Question:** Finally, there is the question of how buyers on eBay respond to sellers’ RT’s. Since a fast rejection from a seller should signal to the buyer that their offer was not competitive, buyers who are rejected quickly should be discouraged from coming back with a second offer. Instead, I observed the opposite effects. Does this happen on eBay?
+
+**Result:** Indeed, in a lab experiment from my lab, [Konovalov & Krajbich (2023)](https://doi.org/10.1093/ej/uead055) found that second offers adjust more after a fast rejection than a slow rejection. However, in the existing eBay data, I observed the opposite effects. Buyers were more, not less, likely to make a second offer for faster rejections (Fig. 8A) and conditional on making a second offer, those offers were lower for faster rejections (Fig. 8B). Thus, counter to the lab data and to our predictions, buyers on eBay appear to be encouraged by a fast rejection.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -190,35 +208,19 @@ Moreover, for the exchanges with thresholds, a similar pattern between offer and
     </div>
 </div>
 <div class="caption">
-    Figure 7A. Distribution of buyers’ first offer conditional on sellers’ response. Histograms of buyers’ initial offers (as a fraction of the sellers’ list prices), conditional on the seller accepting, rejecting, or countering the offers.
-    Figure 7B. Sellers’ median RT (in hours) as a function of buyers’ initial offers (as a fraction of the sellers’ list prices), conditional on the seller accepting or rejecting or countering the offers. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors.
+    **Figure 8. Buyers react adversely to slow sellers. A.** Buyers’ median RT (in hours) as a function of sellers’ compromise, conditional on the buyer accepting or rejecting the offers. The seller’s compromise is the amount that they lowered their counteroffer, divided by the gap between the list price and the buyer’s offer. A 100% compromise would be a counteroffer that matches the buyer’s offer; a 0% compromise would be a counteroffer that is the list price. **B.** Size of buyers’ compromise as a function of sellers’ rejection RT to the first offers. The size of the dots indicates the relative amount of data in that bin and the bars represent bootstrapped standard errors across buyers.
 </div>
 
+In order to investigate whether there was selection bias when analyzing buyers’ second offers, I first looked at the probability of the buyer making a second offer as a function of the first offer. Buyers were most likely to make a second offer if their first offer was around half of the list price. For other first offers there was a sharp decrease in the likelihood of making a second offer. To account for this selection bias, I used the Heckman correction ([Heckman, 1979](https://doi.org/10.2307/1912352)). 
 
-## 🧩 Puzzling Results
-
----
-
-**Question:** Finally, there is the question of how buyers on eBay respond to sellers’ RT’s. Since a fast rejection from a seller should signal to the buyer that their offer was not competitive, buyers who are rejected quickly should be discouraged from coming back with a second offer, but if they do make a second offer, it should be much higher than if they were rejected slowly. Does this happen on eBay?
-
-**Result:** Indeed, in a lab experiment from my lab, [Konovalov & Krajbich (2023)](https://doi.org/10.1093/ej/uead055) found that second offers adjust more after a fast rejection than a slow rejection. However, in the existing eBay data, we observed the opposite effects. Buyers were more, not less, likely to make a second offer for faster rejections (Fig. 8) and conditional on making a second offer, those offers were lower for faster rejections (Fig. 8). Thus, counter to the lab data and to our predictions, buyers on eBay appear to be encouraged by a fast rejection.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_15.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Figure 8. Buyers react adversely to slow sellers. (left) Probability that buyers make second offers as a function of sellers’ rejection RT to the first offers. The inset zooms in on rejection between 0 and 2 hours.(right) Size of buyers’ compromise as a function of sellers’ rejection RT to the first offers. The buyer’s compromise is the amount that they raised their second offer, divided by the gap between the list price and buyer’s first offer.  A 100% compromise would be a second offer that is the list price; a 0% compromise would be a second offer that is the same as the first offer. The size of the dots indicates the relative amount of data in that bin and the bars represent bootstrapped standard errors across buyers. 
-</div>
-
-
+The Heckman correction is a two-step statistical approach that corrects for non-randomly selected samples. In the first stage, I modeled the probability of the buyer making a second offer conditional on the first offer being rejected. This model helps identify the factors that influence whether the buyer makes a second offer or the selection process and calculates the inverse Mills ratio. The inverse Mills ratio is a measure of the probability of an observation being included in the sample, given its characteristics and the estimated parameters from the selection equation. It provides a way to quantify the selection bias that arises when the sample is not randomly selected from the population. In the second stage, I correct for self-selection by incorporating the inverse Mills ratio as an additional explanatory variable. This adjusted regression accounts for the selection bias by incorporating the correction factor from the selection equation. I estimated this model using the R package sampleSelection. The results do not change when accounting for this sampling bias.
 
 ## 🏁 Conclusions
 
 ---
 
-These results show, using data from eBay's bargaining exchanges, that a significant proportion of responders do not adhere to preset strategies but decide in real-time in a way that reveals private information. The time agents take to respond becomes an inadvertent indicator of their evaluation of an offer. These findings show that RT can unintentionally expose an person's private preferences, offering a strategic advantage to the proposers.
+These results show, using data from eBay's bargaining exchanges, that a significant proportion of responders do not adhere to preset strategies but decide in real-time in a way that reveals private information. The time agents take to respond becomes an inadvertent indicator of their evaluation of an offer. These findings show that RT can unintentionally expose an person's private preferences, offering a potential strategic advantage to the proposers.
+
 
 ## 🌟 Outcomes
 
@@ -228,6 +230,7 @@ This is an updated version of a preprint I posted online in 2020. You can check 
 
 Presented the project at various conferences: 
 
+- Decision Science Collaborative Research Forum at Ohio State University, 2024
 - [International Conference on Computational Social Science, 2023](https://www.ic2s2.org/)
 - Psychology Graduate Research Forum at Ohio State University, 2022
 - [Annual Meeting for the Society of Neuroeconomics, 2022](https://neuroeconomics.org/wp-content/uploads/2022/09/SNE-Conference-2022_Program-1.pdf)
@@ -235,5 +238,4 @@ Presented the project at various conferences:
 - [Society for Judgment and Decision Making Annual Conference, 2022](https://sjdm.org/programs/2022-program.pdf)
 - [North-American Economic Science Association Conference, Choice Process Tracing Workshop, 2021](http://w3.econlab.arizona.edu/esa2021/index.php/choice-process-data-workshop/)
 
-Working currently at a new version of the paper to submit for publishing soon.
-
+The paper is currently under review.
