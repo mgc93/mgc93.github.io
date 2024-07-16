@@ -49,10 +49,10 @@ The experiment was a within-subject design. Subjects made a series of binary cho
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_1.png" title="example image" class="img-fluid rounded z-depth-1" width="40%" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_1.png" title="example image" class="img-fluid rounded z-depth-1" width="300px" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" width="40%" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" width="300px" %}
 </div>
 <div class="caption text-left">
     Figure 1. Example games of each type.
@@ -91,7 +91,7 @@ We measured in each game which action a participant chooses from the two availab
 
 ### 🍪 Behavioral Results
 
-I computed the expected utility based on subject’s beliefs (p) about what other subjects in the same study would do. The expected utility of the efficient action is:  $EU top = pa + (1 − p)c$ and the expected utility of the inefficient action is: $EU bottom = pb + (1 − p)d$.
+I computed the expected utility based on subject’s beliefs (p) about what other subjects in the same study would do. The expected utility of the efficient action is:  EU top = pa + (1 − p)c and the expected utility of the inefficient action is: EU bottom = pb + (1 − p)d.
 
 I first investigated the effects of expected utility and payoffs on choices. As expected, subjects were more likely to choose the top action, the higher the expected utility of the top action and the lower the expected utility of the bottom action (β EU top = 1.32, SE = 0.05, p < .001, β EU bottom = −0.62, SE = 0.04, p < .001). The same was true when considering the temptation and the sucker payoffs. Subjects were more likely to choose the top action, the higher the sucker payoff (c) was and the lower the temptation payoff (b) was (β sucker = 1.20, SE = 0.05, p < .001, β temptation = −1.01, SE = 0.05, p < .001).
 
