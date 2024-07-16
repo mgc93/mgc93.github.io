@@ -49,10 +49,10 @@ The experiment was a within-subject design. Subjects made a series of binary cho
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_1.png" title="example image" class="img-fluid rounded z-depth-1" width="40%" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" width="40%" %}
 </div>
 <div class="caption text-left">
     Figure 1. Example games of each type.
@@ -97,7 +97,7 @@ I first investigated the effects of expected utility and payoffs on choices. As 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
 <div class="caption text-left">
@@ -118,17 +118,19 @@ I next investigated whether the risk factor of the SH and HD games affects choic
 
 **Predicting choices**
 
-For each type of game, I chose 2 specific games in we predicted the highest proportion of responses to one or the other action, in other words, easy choices. I chose 2 games for each game type with high sucker and low temptation payoffs or low sucker and high temptation payoffs ($SH : {(5,4),(9,0)}, HD : {(11,10),(15,6)}, PD : {(13, 4), (14, 0)}, HG : {(7, 7), (6, 10)}$). For each game, we selected the subjects who chose the most likely action according to our predictions ($SH : {(5,4)_{T} ,(9,0)_{B}}, HD : {(11,10)_{T} ,(15,6)_{B}}, PD : {(13,4)_{T} ,(14,0)_{B}}, HG : {(7, 7)_{T} , (6, 10)_{T} }$). I then predicted whether they were more likely to repeat the same action depending on their RT. We predicted that choosing the easy action quickly would make them more likely to repeat it in another game compared to when choosing the easy action slowly. For SH, HD, PD games, where some type of conflict is present, the response time should reflect mostly the strength of preference of drift rate. However, for the HG games, where conflict should not play a role, the response time should mainly reflect the speed-accuracy trade-off or boundary separation. Therefore, for the HG games, I predicted that short RTs would increase the likelihood of repeating the action compared to quick RTs.
+For each type of game, I chose 2 specific games in we predicted the highest proportion of responses to one or the other action, in other words, easy choices. I chose 2 games for each game type with high sucker and low temptation payoffs or low sucker and high temptation payoffs (SH : {(5,4),(9,0)}, HD : {(11,10),(15,6)}, PD : {(13, 4), (14, 0)}, HG : {(7, 7), (6, 10)}). For each game, we selected the subjects who chose the most likely action according to our predictions (SH : {(5,4)_{T} ,(9,0)_{B}}, HD : {(11,10)_{T} ,(15,6)_{B}}, PD : {(13,4)_{T} ,(14,0)_{B}}, HG : {(7, 7)_{T} , (6, 10)_{T} }). I then predicted whether they were more likely to repeat the same action depending on their RT. We predicted that choosing the easy action quickly would make them more likely to repeat it in another game compared to when choosing the easy action slowly. For SH, HD, PD games, where some type of conflict is present, the response time should reflect mostly the strength of preference of drift rate. However, for the HG games, where conflict should not play a role, the response time should mainly reflect the speed-accuracy trade-off or boundary separation. Therefore, for the HG games, I predicted that short RTs would increase the likelihood of repeating the action compared to quick RTs.
 
 Overall, I found the expected results for both the top and bottom actions, the shorter RTs in choosing an action, the more likely it was to be repeated in a different game. When running regressions separately for each type of game, the results held for repeating the bottom action, but were not significant for repeating the top action. I also found the expected effect for HG games, but only for one game the result was significant.
 
+
 ### ⌚Response Time Results
+
 
 I then examined the same effect on the response times. Subjects’ RTs were longer when the expected utility difference between top and bottom action was closer to zero (β EU(Top−Bottom) = −0.003, SE = 0.0006, p < .001).
 
-Subjects’ RTs were also longer, the closer they were to their indifference point between playing the top or bottom action (β |Choice Prediction−0.5| = −0.72, SE = 0.07, p < .001). Their indifference point was determined using the absolute value of predicted choice probabilities from the logistic regression of playing the top action on the sucker and temptation payoffs minus 0.5. 
+Subjects’ RTs were also longer, the closer they were to their indifference point between playing the top or bottom action (β (Choice Prediction−0.5) = −0.72, SE = 0.07, p < .001). Their indifference point was determined using the absolute value of predicted choice probabilities from the logistic regression of playing the top action on the sucker and temptation payoffs minus 0.5. 
 
-Subjects’ RTs were also longer, the closer the game’s risk factor was to their indifference point (β |Choice Prediction−0.5| = −0.62, SE = 0.09, p < .001). Their indifference point was determined using the absolute value of predicted choice probabilities from the logistic regression of playing the top action on the game’s risk factor minus 0.5.
+Subjects’ RTs were also longer, the closer the game’s risk factor was to their indifference point (β (Choice Prediction−0.5) = −0.62, SE = 0.09, p < .001). Their indifference point was determined using the absolute value of predicted choice probabilities from the logistic regression of playing the top action on the game’s risk factor minus 0.5.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -141,6 +143,7 @@ Subjects’ RTs were also longer, the closer the game’s risk factor was to the
 
 
 ### 📐 Modeling Results
+
 
 I fitted two models to each subjects data. One model assumed subjects choices and response times were the result of an accumulation process. I used a Drift Diffusion Model (DDM) to model the accumulation of evidence over time for whether to chose the top or bottom action in each game (*Ratcliff et al., 2016*). The other model assumed choices and response times are generated independently.
 
