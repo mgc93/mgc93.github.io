@@ -76,7 +76,7 @@ After the choice task, subjects completed a belief task. Subjects had to estimat
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption text-left">
@@ -93,11 +93,11 @@ We measured in each game which action a participant chooses from the two availab
 
 I computed the expected utility based on subject’s beliefs (p) about what other subjects in the same study would do. The expected utility of the efficient action is:  $EU top = pa + (1 − p)c$ and the expected utility of the inefficient action is: $EU bottom = pb + (1 − p)d$.
 
-I first investigated the effects of expected utility and payoffs on choices. As expected, subjects were more likely to choose the top action, the higher the expected utility of the top action and the lower the expected utility of the bottom action (β EU top = 1.32, SE = 0.05, p < .001, β EU bottom = −0.62, SE = 0.04, p < .001). The same was true when considering the temptation and the sucker payoffs. Subjects were more likely to choose the top action, the higher the sucker payoff (c) was and the lower the temptation payoff (b) was (βsucker = 1.20, SE = 0.05, p < .001, βtemptation = −1.01, SE = 0.05, p < .001).
+I first investigated the effects of expected utility and payoffs on choices. As expected, subjects were more likely to choose the top action, the higher the expected utility of the top action and the lower the expected utility of the bottom action (β EU top = 1.32, SE = 0.05, p < .001, β EU bottom = −0.62, SE = 0.04, p < .001). The same was true when considering the temptation and the sucker payoffs. Subjects were more likely to choose the top action, the higher the sucker payoff (c) was and the lower the temptation payoff (b) was (β sucker = 1.20, SE = 0.05, p < .001, β temptation = −1.01, SE = 0.05, p < .001).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
 <div class="caption text-left">
@@ -108,7 +108,7 @@ I next investigated whether the risk factor of the SH and HD games affects choic
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
 <div class="caption text-left">
@@ -118,7 +118,7 @@ I next investigated whether the risk factor of the SH and HD games affects choic
 
 **Predicting choices**
 
-For each type of game, I chose 2 specific games in we predicted the highest proportion of responses to one or the other action, in other words, easy choices. I chose 2 games for each game type with high sucker and low temptation payoffs or low sucker and high temptation payoffs (SH : {(5,4),(9,0)}, HD : {(11,10),(15,6)}, PD : {(13, 4), (14, 0)}, HG : {(7, 7), (6, 10)}). For each game, we selected the subjects who chose the most likely action according to our predictions (SH : {(5,4)_{T} ,(9,0)_{B}}, HD : {(11,10)_{T} ,(15,6)_{B}}, PD : {(13,4)_{T} ,(14,0)_{B}}, HG : {(7, 7)_{T} , (6, 10)_{T} }). I then predicted whether they were more likely to repeat the same action depending on their RT. We predicted that choosing the easy action quickly would make them more likely to repeat it in another game compared to when choosing the easy action slowly. For SH, HD, PD games, where some type of conflict is present, the response time should reflect mostly the strength of preference of drift rate. However, for the HG games, where conflict should not play a role, the response time should mainly reflect the speed-accuracy trade-off or boundary separation. Therefore, for the HG games, I predicted that short RTs would increase the likelihood of repeating the action compared to quick RTs.
+For each type of game, I chose 2 specific games in we predicted the highest proportion of responses to one or the other action, in other words, easy choices. I chose 2 games for each game type with high sucker and low temptation payoffs or low sucker and high temptation payoffs (SH : {(5,4),(9,0)}, HD : {(11,10),(15,6)}, PD : {(13, 4), (14, 0)}, HG : {(7, 7), (6, 10)}). For each game, we selected the subjects who chose the most likely action according to our predictions (SH : {(5,4)_{T} ,(9,0)_{B}}, HD : {(11,10)_{T} ,(15,6)_{B}}, PD : {(13,4)_{T} ,(14,0)_{B}}, HG : {(7, 7)_{T} , (6, 10)_{T}}). I then predicted whether they were more likely to repeat the same action depending on their RT. We predicted that choosing the easy action quickly would make them more likely to repeat it in another game compared to when choosing the easy action slowly. For SH, HD, PD games, where some type of conflict is present, the response time should reflect mostly the strength of preference of drift rate. However, for the HG games, where conflict should not play a role, the response time should mainly reflect the speed-accuracy trade-off or boundary separation. Therefore, for the HG games, I predicted that short RTs would increase the likelihood of repeating the action compared to quick RTs.
 
 Overall, I found the expected results for both the top and bottom actions, the shorter RTs in choosing an action, the more likely it was to be repeated in a different game. When running regressions separately for each type of game, the results held for repeating the bottom action, but were not significant for repeating the top action. I also found the expected effect for HG games, but only for one game the result was significant.
 
@@ -134,7 +134,7 @@ Subjects’ RTs were also longer, the closer the game’s risk factor was to the
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
 <div class="caption text-left">
@@ -215,7 +215,7 @@ I find similar behavioral patterns, with one exception. Instead of an undefined 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption text-left">
