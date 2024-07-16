@@ -52,7 +52,7 @@ The experiment was a within-subject design. Subjects made a series of binary cho
         {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_1.png" title="example image" class="img-fluid rounded z-depth-1" width="300px" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" width="300px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
 </div>
 <div class="caption text-left">
     Figure 1. Example games of each type.
@@ -60,10 +60,10 @@ The experiment was a within-subject design. Subjects made a series of binary cho
 
 We vary the temptation payoff (b) and the sucker payoff (c) to produce all 4 types of games. We keep payoff from top and left cell (a) and payoff from bottom and right cell (d) the same throughout. The following relative order of payoffs produces the 4 types of games: 
 
-- HG (c > d, a > b),
-- HD (b > a > c > d),
-- SH (a > b > d > c),
-- PD (b > a > d > c).
+- HG (c \> d, a \> b),
+- HD (b \> a > c \> d),
+- SH (a \> b > d \> c),
+- PD (b \> a > d \> c).
 
 For each subject, we randomize the order of the games. Between subjects, we randomize the placement of the 4 actions (top, bottom, left, right).
 
