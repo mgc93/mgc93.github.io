@@ -9,8 +9,13 @@ category: Research and Teaching
 
 <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" alt="Untitled" width="700"/>
 
+**Collaborators**: Ian Krajbich
 
-## Lesson Plan
+**Programming**: R, stan
+
+**Skills**: Experiment, Eye-tracking, Model Simulation and Model Fitting, Sequential Sampling Models, Supercomputing Resources
+
+# Lesson Plan
 
 ---
 
@@ -18,11 +23,11 @@ Day 1: Introduction to research, cognitive modeling, DDM and aDDM (by Ian Krajbi
 
 Day 2: Introduction to R, tidyverse and ggplot
 
-Day 3: Practice R by replicating [aDDM paper](https://www.nature.com/articles/nn.2635) analyses using original dataset
+Day 3: Practice R by replicating [aDDM paper](https://www.nature.com/articles/nn.2635) analyses using original dataset. Field trip to see experimental economics lab, eye-tracker and MRI.
 
-Day 4: Collecting data for the experiment and modeling introduction
+Day 4: Collecting data for the experiment and modeling introduction. 
 
-Day 5: Introduction to statistics, experimental research design, modeling exercise - simulating the DDM and aDDM
+Day 5: Introduction to statistics, experimental research design, modeling exercise - simulating the DDM and aDDM. Field trip to see Ohio Supercomputing Center.
 
 Day 6: Behavioral analysis and aDDM analysis using the collected data
 
@@ -30,8 +35,7 @@ Day 7: Preparing the presentation
 
 Day 8: Finishing presentation and presenting to parents and other attendees
 
-
-## Project - How gaze affects choices: comparison between food ( 🍕) and art ( 🎨 )
+# Project - How gaze affects choices: comparison between food ( 🍕) and art ( 🎨 )
 
 ---
 
@@ -97,12 +101,13 @@ $$
 \epsilon_{t} \sim \mathcal{N}(0,\sigma^2)
 $$
 
-- $$ (u_{0}-u_{1}) $$  represents the average evidence for each of the two options
-- $$ \epsilon_{t} $$ represents the noise around the slope due to the noisy observations
+- $(u_{0}-u_{1})$  represents the average evidence for each of the two options
+- $\epsilon_{t}$ represents the noise around the slope due to the noisy observations
 
 **aDDM**
 
 An extension of the DDM that accounts for attention during the decision process.
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -129,7 +134,7 @@ $$
     </div>
 </div>
 <div class="caption">
-    **aDDM simulations**. In simulated runs of the model, the RDV generally moved toward the fixated item, but the slope depended on the values of the two items (Fig. 1c,d). For example, the RDV signal integrated toward the left barrier when the subject fixated on the left item, even though it had a lower value than the right item (Fig. 1d). This suggests that visual fixations are important for the integration process.
+    aDDM simulations. In simulated runs of the model, the RDV generally moved toward the fixated item, but the slope depended on the values of the two items (Fig. 1c,d). For example, the RDV signal integrated toward the left barrier when the subject fixated on the left item, even though it had a lower value than the right item (Fig. 1d). This suggests that visual fixations are important for the integration process.
 </div>
 
 
@@ -309,3 +314,143 @@ The groups’s choices followed an evidence accumulation process
 More attention on an object increases the probability of it being chosen.
 
 The group was more influenced by attention for their food choices compared to the art choices.
+
+
+## 🌟 Outcomes
+
+---
+
+**Student evaluations**
+
+### Day 2
+
+**What did you learn today?**
+
+> We learned how to code with R.
+> 
+
+### Day 3
+
+**What did you learn today?**
+
+> I learned more about the applications of programming on psychology.
+> 
+
+> A lot about mri scanning and eye tracking. Learned a little bit about how to code for eye tracking data.
+> 
+
+> I learned how an eye tracking machine and MRI works.
+> 
+
+> I learned how to plot histograms in r and some of the science behind MRIs.
+> 
+
+> I learned all about brain imaging and monitoring via tools such as MRIs and eye tracking, which are powered through computing.
+> 
+
+> How a normal video camera can be used to create an eye tracking device.
+> 
+
+> Computational applications of science
+> 
+
+**Who helped you out today and how?**
+
+> Miruna helped me out by guiding me on the right path to answer a plotting question. She helped me think about it in terms of loops and vectors so that they could later be plotted.
+> 
+
+**What did you like the best about today’s activities?**
+
+> I liked doing the eye tracking for our project and leaning about how it works.
+> 
+
+> I liked the eye tracker activity the best.
+> 
+
+> The fieldtrip to the psych building
+> 
+
+> I really enjoyed the MRI portion of the tour as I got to see real images of the brain which fascinated me very much.
+> 
+
+**Comments about the field trip**
+
+> I didn't realize how hard it is for researchers get good MRI data and how many people are involved in the process of running the actual experiment.
+> 
+
+> It was great because I learned about interests I did not realize I had.
+> 
+
+### Day 4
+
+**What did you learn today?**
+
+> I learned more about modeling data using R.
+> 
+
+> I learned how to use chi-square to do goodness of fit
+> 
+
+> How hard it is to make a main function actually work.
+> 
+
+> We learned how to parallel process with R.
+> 
+
+### Day 5
+
+**What did you learn today?**
+
+> I learned how to do a t test in r.
+> 
+
+> break up program into multiple functions
+> 
+
+> We learned how to use linear regressions with R.
+> 
+
+### Day 6
+
+**What did you learn today?**
+
+> Learned how to create animations in r
+> 
+
+> I learned how to animate data.
+> 
+
+> Miruna helped us learn to code.
+> 
+
+### Day 7
+
+**What did you learn today?**
+
+> I learned about proper formatting for presentations
+> 
+
+> how to give a good presentation
+> 
+
+> I liked the running through presentations and receiving advice.
+> 
+
+**Final comments**
+
+> Choice Group I think that the group leader helped a lot and made it very clear what we would learn and what the topic was like. However, it was a little confusing on what we would put onto the slides and where the code we did could be useful, but we eventually figured it out.
+> 
+
+> Choice - Miruna and Professor Ian were both very helpful in teaching psychology, R, and proper presentational techniques. Learning R was fast but got better with more practice.
+> 
+
+**How do you think SI has impacted your future educational and career choices?**
+
+> It taught me about research fields I never knew I was interested in.
+> 
+
+> I learned more about computer science and the applications or super computing. I also learned more about presenting and acquired more presentation skills.
+> 
+
+> Showed me how computer science can be involved with other career paths and I would like to have a mix of computational science and some other STEM field.
+>
