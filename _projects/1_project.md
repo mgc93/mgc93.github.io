@@ -87,7 +87,7 @@ The final dataset of first buyer’s offers after applying all the restrictions 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" width="350px" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" width="300px" %}
@@ -162,10 +162,10 @@ The pre-existing data from eBay indicate that most sellers (62%) do not use auto
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" width="350px" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" width="300px" %}
     </div>
 </div>
 <div class="caption">
