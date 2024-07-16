@@ -1,9 +1,9 @@
 ---
 layout: cv
-permalink: /assets/pdf/academic_cv.pdf
+permalink: /assets/pdf/cv_miruna_cotet_short.pdf
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: academic_cv.pdf
+cv_pdf: cv_miruna_cotet_short.pdf
 description: 
 ---
