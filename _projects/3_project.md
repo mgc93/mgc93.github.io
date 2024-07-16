@@ -75,7 +75,7 @@ One of my previous projects using observational eBay data showed that seller’s
         {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" width="300px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 2. Example of item bought. Baseball card.
 </div>
 
@@ -105,7 +105,7 @@ One of my previous projects using observational eBay data showed that seller’s
         {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 3. Histogram of offers as a percent of list price (p1/p0).
 </div>
 
@@ -130,7 +130,7 @@ One of my previous projects using observational eBay data showed that seller’s
         {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 4. Screenshot of the offer page on eBay.
 </div>
 
@@ -175,7 +175,7 @@ Although the sellers have 24 hours to respond, most respond within an hour (M = 
         {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Table 1. Summary statistics for variables of interest.
 </div>
 
@@ -185,7 +185,7 @@ Although the sellers have 24 hours to respond, most respond within an hour (M = 
         {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 5. Response times in hours by type of seller response. The seller has 24 hours to respond.
 </div>
 
@@ -198,7 +198,7 @@ As in the eBay observational data, low offers are more likely to be declined whi
         {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     igure 6. Probability of each type of seller response. As offer size as a fraction of price increases, the seller is more likely to accept it and less likely to reject it. If the offer is in the mid-range, the seller is more likely to counter it. The seller is also more likely to let very low offers expire
 </div>
 
@@ -211,7 +211,7 @@ Similar to what we observe in the eBay observational data, we expected that sell
         {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 7. eBay field experiment mirrors pre-existing eBay data. A. Sellers’ probability of accepting the first offer as a function of the offer ratio (offer / list price). B. Sellers’ median RT (in hours) as a function of the offer ratio, conditional on acceptance or rejection. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent
 standard errors across sellers. Bins with less than 40 observations are excluded.
 </div>
@@ -225,7 +225,7 @@ I found the expected negative coefficient on offer ratio for the acceptances, an
         {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Table 2. Linear regressions for eBay field experiment 2 of log(RT) on first buyer offer ratio (p1/p0) (z-score) conditional on the seller accepting, or rejecting the offers. These regressions include random effects (clustered by seller) on the intercept and offer ratio. The random effects structure was chosen based on the model with the lowest AIC from a model comparison. All variables are z-scored except Number of Best Offer.
 </div>
 
