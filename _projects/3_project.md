@@ -46,7 +46,7 @@ One of my previous projects using observational eBay data showed that seller’s
         {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_1.png" title="example image" class="img-fluid rounded z-depth-1" width="600px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 1. Bargaining setting. Buyers make offers to the seller. High offers are accepted quickly (first row). Medium offers are rejected slowly (second row), while low offers are rejected quickly (third row). Thus, the seller reveals their preference for each offer though their RT. Buyers can use this information to adjust their next offer. The buyer needs a larger increase in their offer after a fast rejection compared to slow rejection in order for the seller to accept.
 </div>
 
