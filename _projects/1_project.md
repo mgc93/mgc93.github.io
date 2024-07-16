@@ -104,18 +104,18 @@ The final dataset of first buyer’s offers after applying all the restrictions 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="600px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="500px" %}
     </div>
 </div>
 <div class="caption">
-    **Figure 2. eBay RT reflect offer size for each item category.** Coefficients for the relation between seller’s log(RT) and buyers’ initial offer ratios, conditional on accepting or rejecting the offers and on item category. Bars represent standard errors.
+    Figure 2. eBay RT reflect offer size for each item category. Coefficients for the relation between seller’s log(RT) and buyers’ initial offer ratios, conditional on accepting or rejecting the offers and on item category. Bars represent standard errors.
 </div>
 
 Seller-level regressions revealed a similar pattern, with 69% showing negative offer-RT correlations for acceptances but only 53% showing positive offer-RT correlations for rejections (Fig. 3).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
 <div class="caption">
