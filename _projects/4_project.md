@@ -9,6 +9,14 @@ category: Research and Teaching
 
 <img src="https://images.unsplash.com/photo-1515139832362-a06b09ecced0?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" alt="Untitled" width="700"/>
 
+
+**Collaborators**: Ian Krajbich, Wenjia Joyce Zhao
+
+**Programming**: R, stan
+
+**Skills**: Bayesian Statistics, Model Comparison, Sequential Sampling Models, Supercomputing Resources
+
+
 ## 🔭 About
 
 ---
@@ -99,6 +107,7 @@ Moreover, changes in parameters help us infer which cognitive processes change w
 - the decision boundary (a) represents the caution level
 - the non-decision time (t) represents motor or processing delays
 
+
 **DDM in bargaining**
 
 Agents who do not have prepared strategies must make decisions on the spot, likely employing a DDM-like process. In that case, their RT’s might reveal their private information, putting them at a strategic disadvantage. In the bargaining example, the seller must weigh the buyer’s offer against the utility of the car and/or future offers. If the seller rejects the buyer’s offer quickly, they signal to the buyer that the offer was far too low; if the seller rejects the offer slowly, they signal to the buyer that the offer was competitive. A strategic buyer, noting the seller’s RT, should respond with a large offer increase in the former case but only a small offer increase in the latter. Therefore, a partially strategic seller would want to reject as quickly as possible, to get the largest possible offer increase from the strategic buyer. However, quick decisions come at a cost  – they entail a higher chance of mistakenly rejecting a good offer or accepting a bad offer. Thus, a fully strategic seller would prepare a strategy ahead of time, allowing them to immediately respond to any offer, and keeping their information private. In that case, RT would not carry any information and would be ignored by agents in the market. Agents who have prepared strategies and who do not make mistakes are the standard in economics and game theory. Here we challenge this standard.
@@ -109,8 +118,7 @@ Agents who do not have prepared strategies must make decisions on the spot, like
     </div>
 </div>
 <div class="caption">
-    **Bargaining setting.** Buyers make offers to the seller. The seller’s consideration of the offers follows a DDM process in which the drift rate depends on the size of the offer. High offers are accepted quickly. Medium offers are rejected slowly, while low offers are rejected quickly. Thus, the seller reveals their preference for each offer though their RT. Buyers can use this information to adjust their next offer. The buyer needs to a larger increase in their offer after a fast rejection compared to slow rejection.
-
+        Bargaining setting. In a standard bargaining exchange, the proposer makes an offer to the responder, which the responder can either accept or reject. On eBay, buyers make offers     to sellers. The size of the offer, in combination with the seller’s private value, determines the drift rate in the DDM. Here, the high offer (in green) yields a modest positive drift rate (towards the “accept” boundary), the medium offer (in purple) yields a low negative drift rate (towards the “reject” boundary), and a low offer (in pink) yields a high negative drift rate. As a result, the seller accepts the high offer with medium speed, rejects the medium offer slowly, and rejects the low offer quickly. So, a strategic buyer will increase their next offer a lot after a quick rejection, but only a little after a slow rejection.
 </div>
 
 **Research question**
@@ -142,7 +150,7 @@ Our field setting is eBay – one of the world’s largest online marketplaces. 
 
 **Lab DDM**
 
-The DDM provides an accurate quantitative account of the buyers’ behavior in the lab experiment. We found that the drift rate in the DDM was a linear function of the buyer’s value minus the seller’s initial price (i.e., the buyer’s surplus). As a result, a buyer’s probability of accepting an offer was increasing in their surplus, both in the data and in the model (Fig. 2, b = 0.11, S.E. = 0.01, p < .001). 
+The DDM provides an accurate quantitative account of the buyers’ behavior in the lab experiment. We found that the drift rate in the DDM was a linear function of the buyer’s value minus the seller’s initial price (i.e., the buyer’s surplus). As a result, a buyer’s probability of accepting an offer was increasing in their surplus, both in the data and in the model (Fig. 1, b = 0.11, S.E. = 0.01, p < .001). 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -150,10 +158,10 @@ The DDM provides an accurate quantitative account of the buyers’ behavior in t
     </div>
 </div>
 <div class="caption">
-    Figure 2. Choice data and DDM fits in the (left) lab Hidden-RT condition (right) ****lab Visible-RT condition. Buyers’ probability of accepting the first offer as a function of their surplus (value – offer).
+    Figure 1. Choice data and DDM fits in the A. lab Hidden-RT condition B. lab Visible-RT condition. Buyers’ probability of accepting the first offer as a function of their surplus (value – offer).
 </div>
 
-Like the eBay data, a buyer’s RT was increasing with surplus for rejections (b = 0.004, S.E. = 0.001, p <.001) but decreasing with surplus for acceptance (b = -0.01, S.E. = 0.002, p = .019), both in the data and model (Fig. 3,4).
+Like the eBay data, a buyer’s RT was increasing with surplus for rejections (b = 0.004, S.E. = 0.001, p <.001) but decreasing with surplus for acceptance (b = -0.01, S.E. = 0.002, p = .019), both in the data and model (Fig. 2,3).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -161,7 +169,7 @@ Like the eBay data, a buyer’s RT was increasing with surplus for rejections (b
     </div>
 </div>
 <div class="caption">
-    Figure 3. RT data in (left) lab rejections, (right) lab acceptances. Buyers’ median RT (in seconds) as a function of their surplus
+    Figure 2. RT data in A. lab rejections, B. lab acceptances. Buyers’ median RT (in seconds) as a function of their surplus.
 </div>
 
 
@@ -171,13 +179,13 @@ Like the eBay data, a buyer’s RT was increasing with surplus for rejections (b
     </div>
 </div>
 <div class="caption">
-    Figure 4. RT fits in (left) lab rejections, (right) lab acceptances. Buyers’ median RT (in seconds) as a function of their surplus
+    Figure 3. RT fits in A. lab rejections, B. lab acceptances. Buyers’ median RT (in seconds) as a function of their surplus.
 </div>
 
 
 The DDM also reveals interesting differences between the Hidden and Visible RT conditions. While both conditions look superficially similar, a careful examination of RT reveals that buyers were significantly faster to respond in the Visible condition, particularly for rejections (b_visible = -0.32, S.E. = 0.16, p = .045 for acceptances, b_visible = -0.24, S.E. = 0.06, p = <.001 for rejections). 
 
-To compare the conditions with the DDM, we allowed non-decision time, boundary separation, starting point, and the drift-rate function to vary between conditions. We observed two noticeable differences between conditions. Buyers in the Visible condition exhibited a marginally narrower boundary separation (group posterior differences Visible - Hidden M = -0.443, HDI = [-0.92, 0.097]) and a credibly more negative drift-rate bias (group posterior differences Visible - Hidden M = -0.405, HDI = [-0.673, -0.157]). In other words, buyers in the visible condition exhibited less response caution (enabling quicker responses), and evaluated offers more negatively, increasing the speed of rejections.
+To compare the conditions with the DDM, we allowed non-decision time, boundary separation, starting point, and the drift-rate function to vary between conditions. We observed two noticeable differences between conditions. Buyers in the Visible condition exhibited a marginally narrower boundary separation (group posterior differences Visible - Hidden M = -0.443, HDI = \[-0.92, 0.097]) and a credibly more negative drift-rate bias (group posterior differences Visible - Hidden M = -0.405, HDI = \[-0.673, -0.157]). In other words, buyers in the visible condition exhibited less response caution (enabling quicker responses), and evaluated offers more negatively, increasing the speed of rejections.
 
 **eBay DDM**
 
@@ -187,10 +195,10 @@ To compare the conditions with the DDM, we allowed non-decision time, boundary s
     </div>
 </div>
 <div class="caption">
-    Figure 5. Activity levels by time of day. Histogram with number of seller’s first offer responses as a function of hour in the day (PDT).
+    Figure 4. Activity levels by time of day. Histogram with number of seller’s first offer responses as a function of hour in the day (PDT).
 </div>
 
-The DDM also provides an accurate account of sellers’ behavior on eBay, with some caveats. Unlike in the lab, eBay users are not constantly monitoring their accounts and thinking about how to respond to offers. Sellers may take hours before seeing an offer and their decision process might be interrupted by sleep, work, family, etc (Fig. 5). These delays and interruptions are non-decision time. Standard DDM’s account for non-decision time with a uniform random variable. Therefore, we developed more complex models of non-decision time that use Gamma distributions (Model 2), include the time of day (Model 3: sleep and work), and vary with the quality of the offer (Model 4: more interruptions when sellers struggle to decide). 
+The DDM also provides an accurate account of sellers’ behavior on eBay, with some caveats. Unlike in the lab, eBay users are not constantly monitoring their accounts and thinking about how to respond to offers. Sellers may take hours before seeing an offer and their decision process might be interrupted by sleep, work, family, etc (Fig. 4). These delays and interruptions are non-decision time. Standard DDM’s account for non-decision time with a uniform random variable. Therefore, we developed more complex models of non-decision time that use Gamma distributions (Model 2), include the time of day (Model 3: sleep and work), and vary with the quality of the offer (Model 4: more interruptions when sellers struggle to decide). 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -199,27 +207,19 @@ The DDM also provides an accurate account of sellers’ behavior on eBay, with s
 </div>
 
 
-These additions to the DDM substantially improved model fit for many sellers (WAIC Model 4 lower than Model 1 for N = 476 (100%), WAIC Model 4 lower than Model 2 for N = 402 (84%), WAIC Model 4 lower than Model 3 for N = 201 (42%)). Using the best-fitting non-decision-time model for each seller, the DDM can accurately capture both choice and RT data from the eBay sellers (at least those that fit our inclusion criteria – see SOM) namely the fact that sellers respond to higher offers with a higher probability of acceptance, faster acceptances, and slower rejections (Fig. 6A,B).
+These additions to the DDM substantially improved model fit for many sellers (WAIC Model 4 lower than Model 1 for N = 476 (100%), WAIC Model 4 lower than Model 2 for N = 402 (84%), WAIC Model 4 lower than Model 3 for N = 201 (42%)). Using the best-fitting non-decision-time model for each seller, the DDM can accurately capture both choice and RT data from the eBay sellers (at least those that fit our inclusion criteria – see SOM) namely the fact that sellers respond to higher offers with a higher probability of acceptance, faster acceptances, and slower rejections (Fig. 5).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_15.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_15.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Figure 6A. Choice data and DDM fits in the eBay data. Sellers’ probability of accepting the first offer as a function of the offer ratio (offer / list price).
-</div>
-
-
-<div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_16.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_16.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Figure 6B. RT data and model fits in eBay rejections and acceptances. Seller’s median RT (in hours) as a function of the offer ratio, in the data and DDM fits.
+    Figure 5. Model fits for choices and response times. A. Choice data and DDM fits in the eBay data. Sellers’ probability of accepting the first offer as a function of the offer ratio (offer / list price). B. RT data and model fits in eBay rejections and acceptances. Seller’s median RT (in hours) as a function of the offer ratio, in the data and DDM fits.
 </div>
-
 
 While there is no eBay equivalent to the Hidden condition in the lab experiment, we can examine how sellers’ choice processes are affected by their experience, under the assumption that more experienced sellers should be more aware of the strategic nature of RT. We measure experience by the number of bargaining exchanges sellers have participated in before the current offer. When examining RT as a function of the offer size for more experienced sellers, we observe a speeding up of that function for acceptances, but not for rejections (b_experience = -0.144, S.E. = 0.02, p < .001 for acceptances, b_experience = -0.013, S.E. = 0.03, p = 0.655 for rejections). Looking at correlations between DDM parameters and experience, we find that seller experience is negatively correlated with boundary separation (like the lab data; Spearman r(474) = -0.18, p < .001) and positively correlated with drift-rate bias (opposite to the lab data; Spearman r(474) = 0.24, p < .001). More experienced eBay sellers exert less response caution and evaluate offers more positively.
 
@@ -229,21 +229,20 @@ While there is no eBay equivalent to the Hidden condition in the lab experiment,
     </div>
 </div>
 <div class="caption">
-    Figure 7. Predicted sellers’ RT (in hours) as a function of offer ratio for sellers with low or high experience on eBay, as measured by number of bargaining exchanges sellers have participated in before the current offer.
+    Figure 6. Predicted sellers’ RT (in hours) as a function of offer ratio for sellers with low or high experience on eBay, as measured by number of bargaining exchanges sellers have participated in before the current offer.
 </div>
-
 
 **Summary of DDM Results**
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_18.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_18.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 
 **Strategic use of RT**
 
-Finally, there is the question of how buyers on eBay respond to sellers’ RT. Since a fast rejection from a seller should signal to the buyer that their offer was not competitive, buyers who are rejected quickly should be discouraged from coming back with a second offer. If they do make a second offer, it should be much higher than if they were rejected slowly. Indeed, in the lab experiment, Konovalov & Krajbich found that second offers adjust more after a fast rejection than a slow rejection (b_rejection RT = 1.40, S.E. = 0.34, p < .001). However, in the pre-existing eBay data we observed the opposite effects. Buyers were more, not less, likely to make a second offer after faster rejections (Fig. 8, b = -0.098, S.E. = 0.004, p < .001) and conditional on making a second offer, those offers were lower for faster rejections (Fig. 8, b = 0.0026, S.E. = 0.0005, p < .001). Thus, counter to the lab data and to our predictions, buyers on eBay appear to be encouraged by fast rejections.
+Finally, there is the question of how buyers on eBay respond to sellers’ RT. Since a fast rejection from a seller should signal to the buyer that their offer was not competitive, buyers who are rejected quickly should be discouraged from coming back with a second offer. If they do make a second offer, it should be much higher than if they were rejected slowly. Indeed, in the lab experiment, Konovalov & Krajbich found that second offers adjust more after a fast rejection than a slow rejection (b_rejection RT = 1.40, S.E. = 0.34, p < .001, Table Sx). However, in the pre-existing eBay data we observed the opposite effects. Buyers were more, not less, likely to make a second offer after faster rejections (Fig. 7, b = -0.098, S.E. = 0.004, p < .001) and conditional on making a second offer, those offers were lower for faster rejections (Fig. 7, b = 0.0026, S.E. = 0.0005, p < .001). Thus, counter to the lab data and to our predictions, buyers on eBay appear to be encouraged by fast rejections.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -251,7 +250,7 @@ Finally, there is the question of how buyers on eBay respond to sellers’ RT. S
     </div>
 </div>
 <div class="caption">
-    Figure 8. Buyers react adversely to slow sellers. (left) Probability that buyers make second offers as a function of sellers’ rejection RT to the first offers. The inset zooms in on rejection between 0 and 2 hours.(right) Size of buyers’ compromise as a function of sellers’ rejection RT to the first offers. The buyer’s compromise is the amount that they raised their second offer, divided by the gap between the list price and buyer’s first offer.  A 100% compromise would be a second offer that is the list price; a 0% compromise would be a second offer that is the same as the first offer. The size of the dots indicates the relative amount of data in that bin and the bars represent bootstrapped standard errors across buyers. 
+    Figure 7. Buyers react adversely to slow sellers. A. Probability that buyers make second offers as a function of sellers’ rejection RT to the first offers. The inset zooms in on rejection between 0 and 2 hours. B. Size of buyers’ compromise as a function of sellers’ rejection RT to the first offers. The buyer’s compromise is the amount that they raised their second offer, divided by the gap between the list price and buyer’s first offer.  A 100% compromise would be a second offer that is the list price; a 0% compromise would be a second offer that is the same as the first offer. The size of the dots indicates the relative amount of data in that bin and the bars represent bootstrapped standard errors across buyers.
 </div>
 
 
@@ -271,6 +270,7 @@ In conclusion, we’ve demonstrated that people make strategic decisions, someti
 
 Presented the project at various conferences: 
 
+- Decision Science Collaborative Research Forum at Ohio State University, 2024
 - [International Conference on Computational Social Science, 2023](https://www.ic2s2.org/)
 - Psychology Graduate Research Forum at Ohio State University, 2022
 - [Annual Meeting for the Society of Neuroeconomics, 2022](https://neuroeconomics.org/wp-content/uploads/2022/09/SNE-Conference-2022_Program-1.pdf)
@@ -278,4 +278,4 @@ Presented the project at various conferences:
 - [Society for Judgment and Decision Making Annual Conference, 2022](https://sjdm.org/programs/2022-program.pdf)
 - [North-American Economic Science Association Conference, Choice Process Tracing Workshop, 2021](http://w3.econlab.arizona.edu/esa2021/index.php/choice-process-data-workshop/)
 
-Working currently at a new version of the paper to submit for publishing soon.
+The paper is currently under review.
