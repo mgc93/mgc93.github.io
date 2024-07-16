@@ -82,7 +82,7 @@ Eye-tracking: online using webcam eye-tracking with the Webgazer library in jsPs
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" width="600px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" width="50%" %}
     </div>
 </div>
 <div class="caption">
@@ -91,7 +91,7 @@ Eye-tracking: online using webcam eye-tracking with the Webgazer library in jsPs
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" width="600px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" width="50%" %}
     </div>
 </div>
 <div class="caption">
@@ -109,7 +109,7 @@ Subjects did a short initial eye-tracking calibration and we exclude them if the
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" width="100%" %}
     </div>
 </div>
 <div class="caption">
@@ -117,7 +117,7 @@ Subjects did a short initial eye-tracking calibration and we exclude them if the
 </div>
 
 
-G**Sample size**
+**Sample size**
 
 226 subjects learned the values associated with 6 stimuli, represented by colors in Study 1 (Colors Task; N =  102) and patterns in Study 2 (Patterns Task; N = 124; Fig. 1). 
 
@@ -142,7 +142,7 @@ We confirmed these results using regressions of *Choose Left* on differences in 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
 <div class="caption">
@@ -153,7 +153,7 @@ The bias to overweight immediate rewards over delayed did not decrease as the ex
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" width="100%" %}
     </div>
 </div>
 <div class="caption">
@@ -162,11 +162,11 @@ The bias to overweight immediate rewards over delayed did not decrease as the ex
 
 ### ⌚Response Time Results
 
-The learning bias was also evident in subjects’ response times (RT). We know from past work that people make faster choices when there is a larger absolute value difference (|VD|) between their options or a larger overall (summed) value (OV) of their options. Since subjects’ choices were more influenced by immediate than delayed rewards, we expected to analogously see more influence of immediate than delayed rewards on RT. This was indeed the case. Immediate rewards had a larger effect on RT than delayed rewards for both |VD| and OV. We regressed log(RT) on |VD| and OV, either in total rewards, or separated into immediate and delayed rewards.  Larger total |VD| and larger total OV decreased RT (Study 1: *β |VD|* = *−*0*.*05 [*−*0*.*07*,−*0*.*04]*, p < .001, β OV* = *−*0*.*06 [*−*0*.*08*,−*0*.*05]*, p < .001*; Study 2: *β |VD|* = *−*0*.*04 [*−*0*.*05*,−*0*.*03]*, p < .001, β OV* = *−*0*.*05 [*−*0*.*06*,−*0*.*04]*, p < .001*; Fig. 6A,D). 
+The learning bias was also evident in subjects’ response times (RT). We know from past work that people make faster choices when there is a larger absolute value difference (|VD|) between their options or a larger overall (summed) value (OV) of their options. Since subjects’ choices were more influenced by immediate than delayed rewards, we expected to analogously see more influence of immediate than delayed rewards on RT. This was indeed the case. Immediate rewards had a larger effect on RT than delayed rewards for both |VD| and OV. We regressed log(RT) on |VD| and OV, either in total rewards, or separated into immediate and delayed rewards.  Larger total |VD| and larger total OV decreased RT (Study 1: β |VD| = −0.05 \[−0.07,−0.04]*, p < .001, β OV = −0.06 \[−0.08,−0.05], p < .001; Study 2: β |VD| = −0.04 \[−0.05,−0.03], p < .001, β O* = −0.05 \[−0.06,−0.04], p < .001; Fig. 6A,D). 
 
-However, when we separated reward into immediate and delayed components, we found that immediate but not delayed |VD| significantly decreased RT (Study 1: *β VD Immediate* = *−*0*.*04 [*−*0*.*06*,−*0*.*03]*, p <* .001; *β VD Delayed* = *−*0*.*002 [*−*0*.*01*,*0*.*01]*, p* = *.*786; Study 2: *β VD Immediate* = *−*0*.*02 [*−*0*.*03*,−*0*.*01]*, p < .001*; *β VD Delayed* = *−*0*.*01 [*−*0*.*02*,*0*.*00]*, p* = *.*056; Fig. 6B,C). The difference between immediate and delayed effects was significant (Study 1: *χ*2(6*, N* = 87) = 114*.*19*, p < .001*; Study 2: *χ*2(6*, N* = 90) = 82*.*67*, p < .001*). 
+However, when we separated reward into immediate and delayed components, we found that immediate but not delayed |VD| significantly decreased RT (Study 1: *β VD Immediate* = −0.04 [−0.06,−0.03], p < .001; β VD Delayed = −0.002 [−0.01,0.01], p = .786; Study 2: β VD Immediate = −0.02 [−0.03,−0.01], p < .001; β VD Delayed = −0.01 [-0.02,0.00], p = .056; Fig. 6B,C). The difference between immediate and delayed effects was significant (Study 1: χ2(6, N = 87) = 114.19, p < .001; Study 2: χ2(6, N = 90) = 82.67, p < .001). 
 
-We also found that immediate OV had a larger effect on RT than delayed OV (Study 1: *β OV Immediate* = *−*0*.*07 [*−*0*.*09*,−*0*.*05]*, p < .001*; *β OV Delayed* = *−*0*.*03 [*−*0*.*04*,−*0*.*01]*, p < .001*; Study 2: *β OV Immediate* = *−*0*.*04 [*−*0*.*05*,−*0*.*03]*, p < .001*; *β OV Delayed* = *−*0*.*03 [*−*0*.*04*,−*0*.*02]*, p < .001*; Difference: Study 1: *χ*2(6*, N* = 87) = 95*.*29*, p < .001*; Study 2: *χ*2(6*, N* = 90) = 52*.*07*, p < .001*; Fig. 6C,F).
+We also found that immediate OV had a larger effect on RT than delayed OV (Study 1: β OV Immediate = −0.07 [−0.09,−0.05], p < .001; β OV Delayed = −0.03 [−0.04,−0.01], p < .001; Study 2: β OV Immediate = −0.04 [−0.05,−0.03], p < .001; β OV Delayed = −0.03 [−0.04,−0.02], p < .001; Difference: Study 1: χ2(6, N = 87) = 95.29, p < .001; Study 2: χ2(6, N = 90) = 52.07, p < .001; Fig. 6C,F).
 
 
 <div class="row">
@@ -226,11 +226,11 @@ We compute choice accuracy for the experiment, as well as choice accuracy for ea
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
 <div class="caption">
-    igure 7. Model parameters and fits. A,B Average choice accuracy in the data and in the model simulations using the mean posterior values across trials and subjects. A. Experiment level. B. Block level for each type of trial. Incongruent choice sets: worse option descending, better option ascending, Congruent choice sets: worse option ascending, better option descending.
+    Figure 7. Model parameters and fits. A,B Average choice accuracy in the data and in the model simulations using the mean posterior values across trials and subjects. A. Experiment level. B. Block level for each type of trial. Incongruent choice sets: worse option descending, better option ascending, Congruent choice sets: worse option ascending, better option descending.
 </div>
 
 **Model Results**
@@ -249,7 +249,7 @@ Surprisingly, gaze biases did not positively correlate with choice biases. This 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
 <div class="caption">

@@ -132,7 +132,7 @@ Seller-level regressions revealed a similar pattern, with 69% showing negative o
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" wwidth="50%" %}
     </div>
 </div>
 <div class="caption">
@@ -146,7 +146,7 @@ Seller-level regressions revealed a similar pattern, with 69% showing negative o
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
 <div class="caption">
@@ -162,10 +162,10 @@ The pre-existing data from eBay indicate that most sellers (62%) do not use auto
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" width="350px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" width="450px" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" width="300px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
 <div class="caption">
