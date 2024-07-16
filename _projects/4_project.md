@@ -65,7 +65,7 @@ The DDM is typically applied to fast perceptual judgments, but in recent years i
         {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     <b>Drift rate (v)</b> represents the evaluation process. It depends on the value of the good, the size of the proposer’s offer and possible future offers: v ~ b0 + b1 (value - offer). The more positive the drift rate is (in this case the higher the surplus earned), the more likely the offer will be accepted. The larger the absolute value of the drift rate, the quicker the decisions will be made on average. The drift rate also has a drift intercept (b0) which represents a bias during the decision process towards one or the other option, controlling for the surplus.
 </div>
 
@@ -74,7 +74,7 @@ The DDM is typically applied to fast perceptual judgments, but in recent years i
         {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     <b>Starting point bias (z)</b> is another type of bias in the model that appears even before the decision process starts. This bias is independent of the specifics of the offer.
 </div>
 
@@ -83,7 +83,7 @@ The DDM is typically applied to fast perceptual judgments, but in recent years i
         {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     <b>Boundary separation (a)</b> represents the amount of evidence needed to make a decision. Smaller decision boundaries indicate a lower caution level. This leads to more mistake on average, but also quicker responses.
 </div>
 
@@ -93,7 +93,7 @@ The DDM is typically applied to fast perceptual judgments, but in recent years i
         {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     <b>Non-decision time (t)</b> represents the time for encoding the information presented and the time for making a motor response.
 </div>
 
@@ -114,10 +114,10 @@ Agents who do not have prepared strategies must make decisions on the spot, like
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
         Bargaining setting. In a standard bargaining exchange, the proposer makes an offer to the responder, which the responder can either accept or reject. On eBay, buyers make offers     to sellers. The size of the offer, in combination with the seller’s private value, determines the drift rate in the DDM. Here, the high offer (in green) yields a modest positive drift rate (towards the “accept” boundary), the medium offer (in purple) yields a low negative drift rate (towards the “reject” boundary), and a low offer (in pink) yields a high negative drift rate. As a result, the seller accepts the high offer with medium speed, rejects the medium offer slowly, and rejects the low offer quickly. So, a strategic buyer will increase their next offer a lot after a quick rejection, but only a little after a slow rejection.
 </div>
 
@@ -154,10 +154,10 @@ The DDM provides an accurate quantitative account of the buyers’ behavior in t
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" width="80%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 1. Choice data and DDM fits in the A. lab Hidden-RT condition B. lab Visible-RT condition. Buyers’ probability of accepting the first offer as a function of their surplus (value – offer).
 </div>
 
@@ -165,20 +165,20 @@ Like the eBay data, a buyer’s RT was increasing with surplus for rejections (b
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_11.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_11.png" title="example image" class="img-fluid rounded z-depth-1" width="80%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 2. RT data in A. lab rejections, B. lab acceptances. Buyers’ median RT (in seconds) as a function of their surplus.
 </div>
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_12.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_12.png" title="example image" class="img-fluid rounded z-depth-1" width="80%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 3. RT fits in A. lab rejections, B. lab acceptances. Buyers’ median RT (in seconds) as a function of their surplus.
 </div>
 
@@ -194,7 +194,7 @@ To compare the conditions with the DDM, we allowed non-decision time, boundary s
         {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_13.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 4. Activity levels by time of day. Histogram with number of seller’s first offer responses as a function of hour in the day (PDT).
 </div>
 
@@ -217,7 +217,7 @@ These additions to the DDM substantially improved model fit for many sellers (WA
         {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_16.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 5. Model fits for choices and response times. A. Choice data and DDM fits in the eBay data. Sellers’ probability of accepting the first offer as a function of the offer ratio (offer / list price). B. RT data and model fits in eBay rejections and acceptances. Seller’s median RT (in hours) as a function of the offer ratio, in the data and DDM fits.
 </div>
 
@@ -228,7 +228,7 @@ While there is no eBay equivalent to the Hidden condition in the lab experiment,
         {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_17.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 6. Predicted sellers’ RT (in hours) as a function of offer ratio for sellers with low or high experience on eBay, as measured by number of bargaining exchanges sellers have participated in before the current offer.
 </div>
 
@@ -236,7 +236,7 @@ While there is no eBay equivalent to the Hidden condition in the lab experiment,
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_18.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_18.png" title="example image" class="img-fluid rounded z-depth-1" width="80%" %}
     </div>
 </div>
 
@@ -249,7 +249,7 @@ Finally, there is the question of how buyers on eBay respond to sellers’ RT. S
         {% include figure.liquid loading="eager" path="assets/img/project_4_images/project_4_fig_19.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 7. Buyers react adversely to slow sellers. A. Probability that buyers make second offers as a function of sellers’ rejection RT to the first offers. The inset zooms in on rejection between 0 and 2 hours. B. Size of buyers’ compromise as a function of sellers’ rejection RT to the first offers. The buyer’s compromise is the amount that they raised their second offer, divided by the gap between the list price and buyer’s first offer.  A 100% compromise would be a second offer that is the list price; a 0% compromise would be a second offer that is the same as the first offer. The size of the dots indicates the relative amount of data in that bin and the bars represent bootstrapped standard errors across buyers.
 </div>
 

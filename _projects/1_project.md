@@ -93,7 +93,7 @@ The final dataset of first buyer’s offers after applying all the restrictions 
         {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" width="300px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 1. eBay RT reflect offer size. A. Sellers’ median RT (in hours) as a function of buyers’ initial offer ratios (offer / list price), conditional on accepting or rejecting the offers. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors. B. GAM regression predictions for sellers’ RT by buyers’ initial offer, conditional on accepting or rejecting the offers. Shaded regions represent 95% confidence intervals.
 </div>
 
@@ -107,7 +107,7 @@ The final dataset of first buyer’s offers after applying all the restrictions 
         {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="500px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 2. eBay RT reflect offer size for each item category. Coefficients for the relation between seller’s log(RT) and buyers’ initial offer ratios, conditional on accepting or rejecting the offers and on item category. Bars represent standard errors.
 </div>
 
@@ -118,7 +118,7 @@ Seller-level regressions revealed a similar pattern, with 69% showing negative o
         {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 3.Seller level RT effects for eBay observational data. A. Histogram of coefficients of buyer’s first offer ratio as a fraction of the sellers’ list prices at the seller level for acceptance log RT in hours. B. Histogram of coefficients of buyer’s first offer ratio as a fraction of the sellers’ list prices at the seller level for rejection log RT in hours.
 </div>
 
@@ -132,10 +132,10 @@ Seller-level regressions revealed a similar pattern, with 69% showing negative o
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" wwidth="50%" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" width="50%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 4. Buyer’s RT reflects seller’s compromise. Buyers’ median RT (in hours) as a function of sellers’ compromise, conditional on the buyer accepting or rejecting the offers. Buyers’ median RT (in hours) as a function of sellers’ compromise, conditional on the buyer accepting or rejecting the offers. The seller’s compromise is the amount that they lowered their counteroffer, divided by the gap between the list price and the buyer’s offer. A 100% compromise would be a counteroffer that matches the buyer’s offer; a 0% compromise would be a counteroffer that is the list price. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors.
 </div>
 
@@ -146,10 +146,10 @@ Seller-level regressions revealed a similar pattern, with 69% showing negative o
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" width="80%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 5. Sellers’ median RT as a function of buyers’ additional offers for eBay observational data. A. Sellers’ median RT (in hours) for buyers’ second offers as a fraction of the sellers’ list prices, conditional on the seller accepting or rejecting the offers. B. Sellers’ median RT (in hours) for buyers’ third offers as a fraction of the sellers’ list prices, conditional on the seller accepting or rejecting the offers. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors. Bins with less than 25 observations were excluded.
 </div>
 
@@ -162,13 +162,13 @@ The pre-existing data from eBay indicate that most sellers (62%) do not use auto
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" width="450px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" width="500px" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 6. Acceptance and rejection threshold usage by seller experience. A. Probability of using an accept or reject threshold, both thresholds or neither threshold, as a function of seller experience quantile. Seller experience represents the number of previous bargaining exchanges the seller has participated in. All bargaining exchanges were sorted by seller experience into ten equal sized bins. In other words, each observation was a single exchange. I did it this way, rather than sorting at the seller level, because a single seller might have some exchanges with thresholds and others without. B. Sellers’ median RT (in hours) as a function of buyers’ initial offers as a percent of list price, conditional on the seller accepting or rejecting the offers for bargaining exchanges with either rejection or acceptance threshold and offers that were between these thresholds. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors. Bins with less than 100 observations were excluded. The coefficients are from a linear regression of log(RT) on first buyer offer ratio (z-score) conditional on the seller accepting, or rejecting the offers using a restricted offer range (\[0.36, 0.68]) similar to the analyses of observations without thresholds. The regressions also includes random effects (clustered by seller) on the intercept and first buyer offer ratio.*
 </div>
 
@@ -186,7 +186,7 @@ The pre-existing data from eBay indicate that most sellers (62%) do not use auto
         {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_12.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 7. eBay seller’s RT for counteroffers. A. Histograms of buyers’ initial offers as a fraction of the sellers’ list prices, conditional on the seller accepting, rejecting, or countering the offers. B. Sellers’ median RT (in hours) as a function of buyers’ initial offers as a fraction of the sellers’ list prices, conditional on the seller accepting or rejecting or countering the offers. The size of the dots indicates the relative amount of data in that bin, across both curves, and the bars represent bootstrapped standard errors.
 </div>
 
@@ -207,7 +207,7 @@ The pre-existing data from eBay indicate that most sellers (62%) do not use auto
         {% include figure.liquid loading="eager" path="assets/img/project_1_images/project_1_fig_14.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 8. Buyers react adversely to slow sellers. A. Buyers’ median RT (in hours) as a function of sellers’ compromise, conditional on the buyer accepting or rejecting the offers. The seller’s compromise is the amount that they lowered their counteroffer, divided by the gap between the list price and the buyer’s offer. A 100% compromise would be a counteroffer that matches the buyer’s offer; a 0% compromise would be a counteroffer that is the list price. B. Size of buyers’ compromise as a function of sellers’ rejection RT to the first offers. The size of the dots indicates the relative amount of data in that bin and the bars represent bootstrapped standard errors across buyers.
 </div>
 

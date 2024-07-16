@@ -53,12 +53,8 @@ The experiment was a within-subject design. Subjects made a series of binary cho
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-        <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 1. Example games of each type.
 </div>
 
@@ -83,7 +79,7 @@ After the choice task, subjects completed a belief task. Subjects had to estimat
         {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 2. Task design. A. Game payoffs. (1) HG - Harmony Game (2) SH - Stag-Hunt Game (3) HD - Hawk-Dove Game (4) PD - Prisoner’s Dilemma B. Game Risk Factor or the mixed strategy equilibrium probability of playing the top action.
 </div>
 
@@ -104,7 +100,7 @@ I first investigated the effects of expected utility and payoffs on choices. As 
         {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 3. Choice probability. Probability of choosing the top action depending on: A. temptation payoff B. sucker payoff C. Expected utility between top and bottom action calculated based on each subject’s beliefs.
 </div>
 
@@ -112,10 +108,10 @@ I next investigated whether the risk factor of the SH and HD games affects choic
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 4. Choice probability based on game risk factor. Probability of choosing top action based on risk factor in: A. Stag-Hunt Game B. Hawk-Dove Game. Bars represent standard errors across subjects.
 </div>
 
@@ -136,10 +132,10 @@ Subjects’ RTs were also longer, the closer the game’s risk factor was to the
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 5. Response Time. Mean response time in seconds depending on: A. choice predictions based on temptation and sucker payoffs B. game type (1) HG - Harmony Game (2) SH - Stag-Hunt Game (3) HD - Hawk-Dove Game (4) PD - Prisoner’s Dilemma. Black dots are individual subjects. Bars represent standard errors across subjects.
 </div>
 
@@ -219,7 +215,7 @@ I find similar behavioral patterns, with one exception. Instead of an undefined 
         {% include figure.liquid loading="eager" path="assets/img/project_5_images/project_5_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 6. Behavioral types based on choice clustering. A Average behavior (N = 60). B (1) Opportunist (N = 10, 17%). (2) Trustful (N = 14, 23%). (3) Envious (N = 15, 25%). (4) Pessimist (N = 11, 18%). (5) Optimist (N = 10, 17%). Choice of top action.
 </div>
 

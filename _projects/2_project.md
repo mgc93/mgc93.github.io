@@ -94,7 +94,7 @@ Eye-tracking: online using webcam eye-tracking with the Webgazer library in jsPs
         {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" width="50%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 2. Experimental design. For each subject/block there were six unique stimuli, colors in Study 1 or patterns in Study 2. Each stimulus had a total reward value ranging from 8 to 18, in steps of 2. For each total reward value there was an ascending version and a descending version based on whether the immediate reward was smaller or larger than the delayed reward, respectively. The component rewards were set by dividing the total reward in half, adding 2 for the larger reward, and subtracting 2 for the smaller reward. For each total reward value, Group 1 saw the descending or ascending version and Group 2 saw the opposite. A small random number was added to each underlying reward to make learning more difficult. Assignment of colors and patterns to total rewards was randomized by subject.
 </div>
 
@@ -112,7 +112,7 @@ Subjects did a short initial eye-tracking calibration and we exclude them if the
         {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" width="100%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 3. Timeline of the experiment.
 </div>
 
@@ -145,7 +145,7 @@ We confirmed these results using regressions of *Choose Left* on differences in 
         {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_5.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 4. Choice behavior. A,B Probability of choosing an option as a function of the option’s total reward. A. Study 1 (colors). B. Study 2 (patterns). C. Probability of choosing the left option as a function of the difference in the experienced immediate and delayed rewards, based on a mixed-effects logistic regression. Dots represent subject level effects and bars represent standard errors of the fixed effects. D. Probability of choosing the left option as a function of whether the left and right options were descending or ascending. Dots represent subject level averages and bars represent standard errors across subjects.
 </div>
 
@@ -156,7 +156,7 @@ The bias to overweight immediate rewards over delayed did not decrease as the ex
         {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_6.png" title="example image" class="img-fluid rounded z-depth-1" width="100%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 5. Behavioral bias over time. Behavioral bias increases over time. Probability of choosing a stimulus given it is in the choice set as a function of the total reward of the stimulus. Dots represent subject level averages and bars represent standard errors across subjects.
 </div>
 
@@ -174,7 +174,7 @@ We also found that immediate OV had a larger effect on RT than delayed OV (Study
         {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_7.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 6. Value difference and overall value effects on response time (RT). A,B,C Absolute value difference (|VD|) effects on RT for each study. A. RT decreases with total |VD|. B. RT decreases with immediate |VD|. C. RT does not decrease with delayed |VD|. D,E,F Overall value (OV) effects on RT for each study. D. RT decreases with total OV. E. RT decreases with immediate OV. F. RT weakly decreases with delayed OV. Dots and bars represent mean and standard errors across subjects.
 </div>
 
@@ -229,7 +229,7 @@ We compute choice accuracy for the experiment, as well as choice accuracy for ea
         {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 7. Model parameters and fits. A,B Average choice accuracy in the data and in the model simulations using the mean posterior values across trials and subjects. A. Experiment level. B. Block level for each type of trial. Incongruent choice sets: worse option descending, better option ascending, Congruent choice sets: worse option ascending, better option descending.
 </div>
 
@@ -252,7 +252,7 @@ Surprisingly, gaze biases did not positively correlate with choice biases. This 
         {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_9.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 8. The link between gaze and behavior. The mean dwell proportion to immediate rewards within a trial for 250 ms time bins across the trial. Black dots represent each subject within a time bin and red bars are standard errors across subjects.
 </div>
 

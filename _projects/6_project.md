@@ -35,7 +35,7 @@ Day 7: Preparing the presentation
 
 Day 8: Finishing presentation and presenting to parents and other attendees
 
-# Project - How gaze affects choices: comparison between food ( 🍕) and art ( 🎨 )
+## Project - How gaze affects choices: comparison between food ( 🍕) and art ( 🎨 )
 
 ---
 
@@ -114,7 +114,7 @@ An extension of the DDM that accounts for attention during the decision process.
         {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_3.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     <b>aDDM.</b> A relative decision value (RDV) evolves over time with a slope that is biased toward the item that is being fixated. The slope dictates the average rate of change of the RDV, but there is also an error term drawn from a Gaussian distribution. When the RDV hits the barrier a choice is made for the corresponding item. The shaded vertical regions represent the item being fixated.
 
 </div>
@@ -133,7 +133,7 @@ $$
         {% include figure.liquid loading="eager" path="assets/img/project_6_images/project_6_fig_4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     aDDM simulations. In simulated runs of the model, the RDV generally moved toward the fixated item, but the slope depended on the values of the two items (Fig. 1c,d). For example, the RDV signal integrated toward the left barrier when the subject fixated on the left item, even though it had a lower value than the right item (Fig. 1d). This suggests that visual fixations are important for the integration process.
 </div>
 

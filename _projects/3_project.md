@@ -199,7 +199,7 @@ As in the eBay observational data, low offers are more likely to be declined whi
     </div>
 </div>
 <div class="caption text-left">
-    igure 6. Probability of each type of seller response. As offer size as a fraction of price increases, the seller is more likely to accept it and less likely to reject it. If the offer is in the mid-range, the seller is more likely to counter it. The seller is also more likely to let very low offers expire
+    Figure 6. Probability of each type of seller response. As offer size as a fraction of price increases, the seller is more likely to accept it and less likely to reject it. If the offer is in the mid-range, the seller is more likely to counter it. The seller is also more likely to let very low offers expire
 </div>
 
 **Main result**
@@ -208,7 +208,7 @@ Similar to what we observe in the eBay observational data, we expected that sell
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_8.png" title="example image" class="img-fluid rounded z-depth-1" width="90%" %}
     </div>
 </div>
 <div class="caption text-left">
@@ -257,7 +257,7 @@ Presented the project at a conference: [International Conference on Computationa
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" width="400px" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_10.png" title="example image" class="img-fluid rounded z-depth-1" width="70%" %}
     </div>
 </div>
 
@@ -278,7 +278,7 @@ The set up for each part was as follows.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_11.png" title="example image" class="img-fluid rounded z-depth-1" width="60%" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_3_images/project_3_fig_11.png" title="example image" class="img-fluid rounded z-depth-1" width="80%" %}
     </div>
 </div>
 

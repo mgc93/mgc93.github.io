@@ -49,7 +49,7 @@ Subjects decided how many out of 100 tokens to give to an anonymous recipient. S
         {% include figure.liquid loading="eager" path="assets/img/project_7_images/project_7_fig_2.png" title="example image" class="img-fluid rounded z-depth-1" width="600px" %}
     </div>
 </div>
-<div class="caption">
+<div class="caption text-left">
     Figure 1. Decision screen. The subject’s decision screen was divided into a 3 by 3 grid. In each block, the subject was assigned to a new cell, highlighted in blue. Each of the other squares contained a slider showing the decision of a previous subject (a giver) for the same exchange rate. The slider showed how many tokens were given (in red) and how many tokens the recipient received (in green). This social information was collected in a previous experiment where each giver made their decisions without social information.
 </div>
 
