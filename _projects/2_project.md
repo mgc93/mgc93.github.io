@@ -11,7 +11,9 @@ giscus_comments: false
  <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" alt="Untitled" width="700"/>
  
 **Collaborators**: David Poensgen, Ian Krajbich
+
 **Programming**: CSS, HTML, Javascript, MATLAB, R, stan
+
 **Skills**: Bayesian Statistics, Experiment, Linear and Logistic Mixed Effects Regressions, Model Comparison, Model Simulation and Model Fitting, Reinforcement Learning Models, Sequential Sampling Models, Webcam Eye-tracking
 
 
