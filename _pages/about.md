@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: left
-  image: assets/img/profile_pic_2.png
+  image: profile_pic_2.png
   image_circular: false # crops the image to make it circular
   more_info: 
 
