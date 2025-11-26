@@ -25,7 +25,7 @@ Day 2: Introduction to R, tidyverse and ggplot
 
 Day 3: Practice R by replicating [aDDM paper](https://www.nature.com/articles/nn.2635) analyses using original dataset. Field trip to see experimental economics lab, eye-tracker and MRI.
 
-Day 4: Collecting data for the experiment and modeling introduction. 
+Day 4: Collecting data for the experiment and modeling introduction.
 
 Day 5: Introduction to statistics, experimental research design, modeling exercise - simulating the DDM and aDDM. Field trip to see Ohio Supercomputing Center.
 
@@ -36,4 +36,3 @@ Day 7: Preparing the presentation
 Day 8: Finishing presentation and presenting to parents and other attendees
 
 ## Project - How gaze affects choices: comparison between food ( 🍕) and art ( 🎨 )
-
