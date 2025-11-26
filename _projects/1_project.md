@@ -23,5 +23,5 @@ related_publications:
 
 ---
 
-In this project, I study whether response times in negotiations reveal the responder's evaluation of the offer, and thus can be used strategically by the proposers. I use an eBay dataset containing millions of bargaining exchanges between June 2012 - June 2013 to answer this question.
+In this project, I study whether response times in negotiations reveal the responder's evaluation of the offer, and thus can be used strategically by the proposers. I use an eBay dataset containing millions of bargaining exchanges between June 2012 - June 2013 to answer this question.  
 
