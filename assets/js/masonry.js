@@ -3,6 +3,8 @@ $(document).ready(function () {
   var $grid = $(".grid").masonry({
     gutter: 10,
     horizontalOrder: true,
+    columnWidth: ".grid-sizer",
+    percentPosition: true,
     itemSelector: ".grid-item",
   });
 
@@ -31,6 +33,11 @@ $(document).ready(function () {
   $(window).on("load", function () {
     requestRelayout();
   });
+
+  // Final guard: trigger a relayout shortly after load for any late shifts
+  setTimeout(function () {
+    requestRelayout();
+  }, 300);
 
   // Re-layout when grid items change size (e.g., after fonts swap)
   if (window.ResizeObserver) {

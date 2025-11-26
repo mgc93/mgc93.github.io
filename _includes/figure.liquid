@@ -33,6 +33,7 @@
       {% else %}
         width="100%"
       {% endif %}
+      data-fallback-src="{{ include.path | relative_url }}"
       {% if include.height %}
         height="{{ include.height }}"
       {% else %}
@@ -62,6 +63,9 @@
       {% endif %}
       {% if include.zoomable %}
         data-zoomable
+      {% endif %}
+      {% if include.fetchpriority %}
+        fetchpriority="{{ include.fetchpriority }}"
       {% endif %}
       {% if include.loading %}
         loading="{{ include.loading }}"
