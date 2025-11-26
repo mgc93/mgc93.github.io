@@ -7,15 +7,14 @@ importance: 2
 category: Research and Teaching
 giscus_comments: false
 ---
- 
- <img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" alt="Untitled" width="700"/>
- 
+
+<img src="https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb" alt="Untitled" width="700"/>
+
 **Collaborators**: David Poensgen, Ian Krajbich
 
 **Programming**: CSS, HTML, Javascript, MATLAB, R, stan
 
 **Skills**: Bayesian Statistics, Experiment, Linear and Logistic Mixed Effects Regressions, Model Comparison, Model Simulation and Model Fitting, Reinforcement Learning Models, Sequential Sampling Models, Webcam Eye-tracking
-
 
 ## 🔭 About
 
@@ -28,7 +27,6 @@ Do people discount **delayed reward** information relative to **immediate reward
         {% include figure.liquid loading="eager" path="assets/img/project_2_images/project_2_fig_1.png" title="example image" class="img-fluid rounded z-depth-1" width="600px" %}
     </div>
 </div>
-
 
 Imagine you’re in a situation where you have to decide which action to take. For instance eat cake ( 🍰 ) or an apple ( 🍎 ).
 
@@ -43,4 +41,4 @@ Even though in this case, you would be better off choosing the healthy option ( 
 
 Examples of suboptimal behaviors like this include: overeating, overspending, not working hard enough, exercising too little, not saving enough and so on.
 
-In this project, we study this kind of learning situation in a controlled setting.   
+In this project, we study this kind of learning situation in a controlled setting.
