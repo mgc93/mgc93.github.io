@@ -10,8 +10,26 @@ module ExternalPosts
     def generate(site)
       if site.config['external_sources'] != nil
         site.config['external_sources'].each do |src|
+          rss_value = src['rss_url']
+          rss_url = if rss_value.is_a?(Array)
+            rss_value.find { |v| v.is_a?(String) && !v.strip.empty? }
+          else
+            rss_value.to_s.strip
+          end
+
+          unless rss_url && !rss_url.empty?
+            p "Skipping external source '#{src['name']}' because no rss_url is configured."
+            next
+          end
+
           p "Fetching external posts from #{src['name']}:"
-          xml = HTTParty.get(src['rss_url']).body
+
+          begin
+            xml = HTTParty.get(rss_url).body
+          rescue StandardError => e
+            p "...failed to fetch #{rss_url}: #{e.message}"
+            next
+          end
           feed = Feedjira.parse(xml)
           feed.entries.each do |e|
             p "...fetching #{e.url}"

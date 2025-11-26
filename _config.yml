@@ -7,7 +7,7 @@ first_name: Miruna
 middle_name:
 last_name: Cotet
 email: cotet@csh.ac.at
-description:  # the ">" symbol means to ignore newlines until "footer_text:"
+description: # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -103,7 +103,6 @@ zotero_username: # your zotero username
 wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 
 contact_note: >
-  
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -158,7 +157,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: [] # https://medium.com/@al-folio/feed
+    rss_url: '' # https://medium.com/@al-folio/feed
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -341,7 +340,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # disable responsive images because GitHub Pages does not build the generated assets
   widths:
     - 480
     - 800
