@@ -9,4 +9,16 @@ $(document).ready(function () {
   $grid.imagesLoaded().progress(function () {
     $grid.masonry("layout");
   });
+
+  // Re-layout after fonts finish loading to avoid clipped text on first visit
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(function () {
+      $grid.masonry("layout");
+    });
+  }
+
+  // Fallback: ensure layout once all assets are loaded
+  $(window).on("load", function () {
+    $grid.masonry("layout");
+  });
 });

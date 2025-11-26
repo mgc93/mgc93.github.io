@@ -68,7 +68,7 @@
       {% elsif site.lazy_loading_images %}
         loading="lazy"
       {% endif %}
-      onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+      onerror="this.onerror=null; this.src='{{ include.path | relative_url }}'; this.srcset=''; this.parentNode.querySelectorAll('.responsive-img-srcset').forEach(src => src.remove());"
     >
   </picture>
 
