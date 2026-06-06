@@ -99,7 +99,7 @@ You can read more about it in the [paper](https://osf.io/preprints/psyarxiv/eyjm
 ---
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo.liquid repository="learning-task-main" %}
+  {% include repository/repo.liquid repository="learning-task" %}
   {% include repository/repo.liquid repository="reinforcement-learning-eyetracking-task" %}
 </div>
 
