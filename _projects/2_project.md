@@ -98,9 +98,8 @@ You can read more about it in the [paper](https://osf.io/preprints/psyarxiv/eyjm
 
 ---
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo.liquid repository="learning-task" %}
-  {% include repository/repo.liquid repository="reinforcement-learning-eyetracking-task" %}
-</div>
+<i class="fa-brands fa-github"></i> [Reinforcement Learning Task with Webcam Eye-tracking](https://github.com/mgc93/learning-task){:target="_blank"}
+
+<i class="fa-brands fa-github"></i> [Reinforcement Learning Task with In-lab Eye-tracking](https://github.com/mgc93/reinforcement-learning-eyetracking-task){:target="_blank"}
 
 
