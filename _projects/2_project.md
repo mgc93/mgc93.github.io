@@ -93,3 +93,14 @@ The gaze data reveal mixed evidence that subjects looked more at immediate vs. d
 Our results indicate that people prioritize not just immediate rewards, but immediate reward information. Unlike temporal discounting, this form of impatience is a clear mistake and leads to objectively worse outcomes.
 
 You can read more about it in the [paper](https://osf.io/preprints/psyarxiv/eyjmg_v1){:target="_blank"}.
+
+## 💻 Code
+
+---
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+  {% include repository/repo.liquid repository="learning-task-main" %}
+  {% include repository/repo.liquid repository="reinforcement-learning-eyetracking-task" %}
+</div>
+
+
