@@ -20,4 +20,4 @@ Behavioral Scientist doing research on individual and group decision-making at t
 
 For my PhD, I used experiments and process data, such as eye-tracking and response times, to infer preferences when choices alone are not informative. For example, in a project analyzing eBay negotiation data, I showed how sellers’ response times reflect their evaluation of offers, revealing strategic information to buyers. I also use computational models like drift diffusion models and reinforcement learning to uncover the cognitive dynamics of decision-making.
 
-As a postdoc in the Collective Adaptation group at the Complexity Science Hub, I am now expanding this approach to decision-making in group settings by examining how individuals adapt their behavior through social learning and how network structures shape collective decision-making.
+As a postdoc in the Collective Adaptation group at the Complexity Science Hub, I am working on analyzing human conversation, studying how discussions unfold, why they go wrong, and whether AI can help make them more productive.

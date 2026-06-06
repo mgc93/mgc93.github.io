@@ -5,7 +5,7 @@ permalink: /projects/
 description:
 nav: true
 nav_order: 7
-display_categories: [Research and Teaching]
+display_categories: [Research, Teaching]
 horizontal: false
 ---
 
