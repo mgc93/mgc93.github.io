@@ -91,3 +91,9 @@ Our findings reveal that subjects' choices not only conform to expected utility 
 ---
 
 In the next phase, I plan to present participants with RT of potential partners in similar games, aiming to assess whether individuals can infer others' preferences based on RT and use this information to act accordingly. For instance, inferring a stronger preference for the safe action compared to the efficient action in a SH game from the longer RT in choosing the efficient action and using this knowledge to better coordinate.
+
+## 💻 Code
+
+---
+
+<i class="fa-brands fa-github"></i> [Economic Games Task](https://github.com/mgc93/coordination-game){:target="_blank"}

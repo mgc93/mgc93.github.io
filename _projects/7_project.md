@@ -84,3 +84,11 @@ We then ran a ridge regression to predict giving in the first trial of each bloc
 ---
 
 Altruistic subjects looked at and returned to high givers. In contrast, selfish subjects only attended to high givers when giving was cheap, continued searching after encountering high givers, and increasingly disengaged from social information as the experiment progressed. These findings reveal that people are aware of the norm but strategically seek information that justifies their preferences. Our results demonstrate that attention dynamics can identify underlying prosocial preferences and predict who will respond to norm-based interventions.
+
+## 💻 Code
+
+---
+
+<i class="fa-brands fa-github"></i> [Individual Dictator Games Task](https://github.com/mgc93/dictator-game){:target="_blank"}
+
+<i class="fa-brands fa-github"></i> [Social Information Dictator Games Task with In-lab Eye-tracking](https://github.com/mgc93/social-norms-eyetracking-task){:target="_blank"}

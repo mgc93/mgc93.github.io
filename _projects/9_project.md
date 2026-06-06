@@ -66,3 +66,9 @@ Both agents use carefully tuned settings (minimum messages before eligibility, w
 **Study 1** revealed that AI facilitators face a penalty — but not where we expected. Rather than the classic "cold but capable" trade-off, AI was rated lower on *both* warmth *and* competence, suggesting people specifically doubt AI's social judgment in emotionally charged settings. Among intervention types, emotional validation, bridging, and perspective-taking were consistently preferred, while normative interventions — telling people what others do or what the community expects — performed worst. Importantly, participants who had been exposed to the AI facilitator showed substantially reduced aversion to it compared to those who had not, suggesting that direct experience with AI facilitation shifts attitudes.
 
 **Study 2** is ongoing and will test whether these interventions actually *improve* conversations, not just how they appear from the outside.
+
+## 💻 Code
+
+---
+
+<i class="fa-brands fa-github"></i> [Adaptation of DeliberateLab Platform for Conversation Experiment](https://github.com/mgc93/deliberate-lab){:target="_blank"}
